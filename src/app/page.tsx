@@ -36,15 +36,11 @@ const steps = [
 ];
 
 const prizes = [
-  {
-    place: "Grand Prize",
-    prize: "$1,000 Cash",
-    sub: "",
-    highlight: true,
-  },
-  { place: "2nd Place", prize: "Premium Pickleball Paddle Package", sub: "", highlight: false },
-  { place: "3rd Place", prize: "Apparel + Gear Bundle", sub: "", highlight: false },
-  { place: "Fan Vote Winner", prize: "Community-Voted Transformation Award", sub: "", highlight: false },
+  { place: "Grand Prize", prize: "$1,000 Cash", highlight: true },
+  { place: "2nd Place", prize: "Premium Pickleball Paddle Package", highlight: false },
+  { place: "3rd Place", prize: "Apparel + Gear Bundle", highlight: false },
+  { place: "Fan Vote Winner", prize: "Community-Voted Transformation Award", highlight: false },
+  { place: "Weekly Check-In Awards", prize: "Prizes awarded every week just for showing up", highlight: false },
 ];
 
 const freeFeatures = [
@@ -64,6 +60,7 @@ const premiumFeatures = [
   "Weekly workout plans",
   "Private premium members channel",
   "Direct Q&A access with Nico",
+  "Live Zoom sessions with Nico and expert guests",
 ];
 
 const faqs = [
@@ -105,12 +102,14 @@ export default function Home() {
             src="/images/gabin-vallet-J154nEkpzlQ-unsplash.jpg"
             alt="Community running together"
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-25"
             priority
           />
-          <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="relative w-10 h-10 rounded-full overflow-hidden shrink-0">
+          {/* Bottom fade */}
+          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#2B4141] to-transparent" />
+          <div className="relative max-w-5xl mx-auto px-6 py-24 text-center">
+            <div className="flex items-center justify-center gap-4 mb-0">
+              <div className="relative w-[3.75rem] h-[3.75rem] rounded-full overflow-hidden shrink-0 ring-2 ring-white/20">
                 <Image
                   src="/images/IMG_0897.jpeg"
                   alt="Nico the Lefty"
@@ -119,32 +118,36 @@ export default function Home() {
                   style={{ objectPosition: "center 50%" }}
                 />
               </div>
-              <p className="text-[#34E4EA] text-sm font-black uppercase tracking-[0.3em]">
+              <p className="text-[#34E4EA] text-[1.3rem] font-black uppercase tracking-[0.3em]">
                 Nico the Lefty presents
               </p>
             </div>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-3">
-              The Lefty Reset
-            </h1>
-            <p className="text-[#0EB1D2] text-2xl sm:text-3xl font-black uppercase tracking-wide mb-6">
-              60-Day Transformation Challenge
+            <div className="flex justify-center mb-8">
+              <Image
+                src="/images/The Lefty Reset Logo Light Final.svg"
+                alt="The Lefty Reset — 60-Day Transformation Challenge"
+                width={560}
+                height={200}
+                className="w-full max-w-xl"
+                priority
+              />
+            </div>
+            <p className="text-white/70 text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-4">
+              A free, community-driven weight loss and fitness challenge built for pickleball players ready to finally do it.
             </p>
-            <p className="text-white/70 text-xl sm:text-2xl max-w-3xl mx-auto leading-relaxed mb-4">
-              A free, community-driven weight loss and fitness challenge built for pickleball players and fitness-minded people who are ready to finally do it.
+            <p className="text-[#8AB9B5] text-sm font-semibold mb-12 tracking-wide">
+              Registration open for the first 30 days — latecomers welcome.
             </p>
-            <p className="text-[#8AB9B5] text-sm font-semibold mb-12">
-              Latecomers welcome — registration open for the first 30 days of the challenge.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center" id="register">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/register"
-                className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
+                className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
               </a>
               <a
                 href="#premium"
-                className="border-2 border-[#0EB1D2] text-[#0EB1D2] hover:bg-[#0EB1D2] hover:text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/30"
+                className="border-2 border-white/30 text-white hover:border-white/70 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Upgrade to Premium — $49
               </a>
@@ -153,84 +156,69 @@ export default function Home() {
         </section>
 
         {/* PHOTO GRID */}
-        <section className="grid grid-cols-2 sm:grid-cols-4 h-64 sm:h-80">
-          <div className="relative overflow-hidden">
-            <Image
-              src="/images/jon-matthews-mXlWibOKSdA-unsplash.jpg"
-              alt="Pickleball player hitting"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-          <div className="relative overflow-hidden">
-            <Image
-              src="/images/unsplash-community-KWpxV0cqAT4-unsplash (1).jpg"
-              alt="Pickleball paddles tapping"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-          <div className="relative overflow-hidden">
-            <Image
-              src="/images/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg"
-              alt="Healthy nutrition"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-          <div className="relative overflow-hidden">
-            <Image
-              src="/images/andrej-lisakov-BVITDGSdpE4-unsplash.jpg"
-              alt="Group workout"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
+        <section className="grid grid-cols-2 sm:grid-cols-4 h-64 sm:h-96 gap-0.5">
+          {[
+            { src: "/images/jon-matthews-mXlWibOKSdA-unsplash.jpg", alt: "Pickleball player hitting" },
+            { src: "/images/unsplash-community-KWpxV0cqAT4-unsplash (1).jpg", alt: "Pickleball paddles tapping" },
+            { src: "/images/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg", alt: "Healthy nutrition" },
+            { src: "/images/andrej-lisakov-BVITDGSdpE4-unsplash.jpg", alt: "Group workout" },
+          ].map((img) => (
+            <div key={img.src} className="relative overflow-hidden group">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-[#2B4141]/0 group-hover:bg-[#2B4141]/20 transition-all duration-500" />
+            </div>
+          ))}
         </section>
 
         {/* WHAT IS THIS */}
-        <section className="bg-[#C8C2AE] py-24 px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <p className="text-[#2B4141]/60 text-sm font-black uppercase tracking-[0.3em] mb-4">What Is This?</p>
-            <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141] leading-tight mb-8">
+        <section className="bg-white py-24 px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">What Is This?</p>
+            <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141] leading-tight mb-10">
               The Lefty Reset
             </h2>
-            <p className="text-[#2B4141]/80 text-xl leading-relaxed mb-6">
-              This is 60 days of showing up — tracking your weight, sharing your journey, and competing for over <strong>$1,000 in prizes</strong> alongside a community of people just like you.
+            <p className="text-[#2B4141]/70 text-xl sm:text-2xl leading-relaxed mb-6">
+              60 days of showing up — tracking your weight, sharing your journey, and competing for over{" "}
+              <span className="text-[#2B4141] font-black">$1,000 in prizes</span> alongside a community of people just like you.
             </p>
-            <p className="text-[#2B4141]/80 text-xl leading-relaxed">
+            <p className="text-[#2B4141]/60 text-lg leading-relaxed">
               No elite athlete status required. No expensive equipment. No complicated program. Just you, your goals, and a community of pickleball players who actually get it.
             </p>
           </div>
         </section>
 
         {/* HOW IT WORKS */}
-        <section className="bg-white py-24 px-6" id="how-it-works">
+        <section className="bg-[#f7f7f5] py-24 px-6" id="how-it-works">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#0EB1D2] text-sm font-black uppercase tracking-[0.3em] mb-4">Step by Step</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141]">How It Works</h2>
+            <div className="text-center mb-20">
+              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Step by Step</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">How It Works</h2>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
               {steps.map((step) => (
-                <div key={step.number} className="flex gap-5">
-                  <span className="text-4xl font-black text-[#34E4EA] leading-none shrink-0">{step.number}</span>
-                  <div>
-                    <h3 className="text-lg font-black text-[#2B4141] mb-2">{step.title}</h3>
-                    <p className="text-[#2B4141]/70 leading-relaxed">{step.body}</p>
-                  </div>
+                <div key={step.number} className="group">
+                  <span className="block text-7xl font-black text-[#2B4141]/8 leading-none mb-3 group-hover:text-[#0EB1D2]/20 transition-colors duration-300">
+                    {step.number}
+                  </span>
+                  <h3 className="text-lg font-black text-[#2B4141] mb-3">{step.title}</h3>
+                  <p className="text-[#2B4141]/60 leading-relaxed">{step.body}</p>
                 </div>
               ))}
             </div>
-            <div className="bg-[#2B4141] rounded-3xl px-10 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div className="bg-[#2B4141] rounded-2xl px-10 py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
               <div>
-                <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-1">Then...</p>
-                <h3 className="text-white text-2xl font-black">Winners Announced Live</h3>
-                <p className="text-white/60 mt-1">Prizes awarded. Legends made. Your transformation celebrated.</p>
+                <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.4em] mb-2">Then...</p>
+                <h3 className="text-white text-2xl font-black mb-1">Winners Announced Live</h3>
+                <p className="text-white/50">Prizes awarded. Legends made. Your transformation celebrated.</p>
               </div>
               <a
                 href="/register"
-                className="shrink-0 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
+                className="shrink-0 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
               </a>
@@ -241,28 +229,28 @@ export default function Home() {
         {/* TWO WAYS TO WIN */}
         <section className="bg-[#2B4141] py-24 px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#34E4EA] text-sm font-black uppercase tracking-[0.3em] mb-4">Competition</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-white">Two Ways to Win</h2>
+            <div className="text-center mb-20">
+              <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.4em] mb-6">Competition</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-white">Two Ways to Win</h2>
             </div>
-            <div className="grid sm:grid-cols-2 gap-8">
-              <div className="bg-[#0EB1D2] rounded-3xl p-10">
-                <p className="text-[#2B4141] text-xs font-black uppercase tracking-[0.3em] mb-4">Track 1 — Objective</p>
-                <h3 className="text-3xl font-black text-[#2B4141] mb-4">Greatest % Body Weight Lost</h3>
-                <p className="text-[#2B4141]/80 leading-relaxed mb-6">
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div className="bg-[#0EB1D2] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
+                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 1 — Objective</p>
+                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Greatest % Body Weight Lost</h3>
+                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
                   The participant who loses the highest percentage of their starting body weight by Day 60 wins. Calculated by formula, verified by weekly check-ins.
                 </p>
-                <p className="text-[#2B4141] text-sm font-bold bg-white/30 rounded-xl px-4 py-3">
+                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
                   We use percentage — not total pounds — so everyone competes on a level playing field regardless of starting size.
                 </p>
               </div>
-              <div className="bg-[#8AB9B5] rounded-3xl p-10">
-                <p className="text-[#2B4141] text-xs font-black uppercase tracking-[0.3em] mb-4">Track 2 — Community Voted</p>
-                <h3 className="text-3xl font-black text-[#2B4141] mb-4">Community Transformation Award</h3>
-                <p className="text-[#2B4141]/80 leading-relaxed mb-6">
+              <div className="bg-[#8AB9B5] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
+                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 2 — Community Voted</p>
+                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Community Transformation Award</h3>
+                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
                   Community-voted. At the end of the challenge, finalists share their stories and the community votes for the most inspiring journey.
                 </p>
-                <p className="text-[#2B4141] text-sm font-bold bg-white/30 rounded-xl px-4 py-3">
+                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
                   You don&apos;t have to lose the most weight to win this one. You just have to show up.
                 </p>
               </div>
@@ -271,29 +259,28 @@ export default function Home() {
         </section>
 
         {/* PRIZES */}
-        <section className="bg-[#C8C2AE] py-24 px-6" id="prizes">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#2B4141]/60 text-sm font-black uppercase tracking-[0.3em] mb-4">What You&apos;re Playing For</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141]">The Prizes</h2>
+        <section className="bg-white py-24 px-6" id="prizes">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-20">
+              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">What You&apos;re Playing For</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">The Prizes</h2>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-3">
               {prizes.map((item) => (
                 <div
                   key={item.place}
-                  className={`flex flex-col sm:flex-row sm:items-center justify-between gap-2 rounded-2xl px-8 py-6 ${
+                  className={`flex flex-col sm:flex-row sm:items-center justify-between gap-2 rounded-2xl px-8 py-7 transition-all duration-300 ${
                     item.highlight
                       ? "bg-[#2B4141] text-white"
-                      : "bg-white text-[#2B4141]"
+                      : "bg-[#f7f7f5] text-[#2B4141] hover:bg-[#f0f0ed]"
                   }`}
                 >
-                  <span className={`text-sm font-black uppercase tracking-widest ${item.highlight ? "text-[#34E4EA]" : "text-[#0EB1D2]"}`}>
+                  <span className={`text-xs font-black uppercase tracking-[0.3em] ${item.highlight ? "text-[#34E4EA]" : "text-[#0EB1D2]"}`}>
                     {item.place}
                   </span>
-                  <div className="sm:text-right">
-                    <p className={`font-black text-lg ${item.highlight ? "text-white" : "text-[#2B4141]"}`}>{item.prize}</p>
-                    {item.sub && <p className={`text-sm ${item.highlight ? "text-white/60" : "text-[#2B4141]/50"}`}>{item.sub}</p>}
-                  </div>
+                  <p className={`font-black text-xl sm:text-right ${item.highlight ? "text-white" : "text-[#2B4141]"}`}>
+                    {item.prize}
+                  </p>
                 </div>
               ))}
             </div>
@@ -301,52 +288,58 @@ export default function Home() {
         </section>
 
         {/* FREE VS PREMIUM */}
-        <section className="bg-white py-24 px-6" id="premium">
+        <section className="bg-[#f7f7f5] py-24 px-6" id="premium">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#0EB1D2] text-sm font-black uppercase tracking-[0.3em] mb-4">Choose Your Experience</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141]">Free vs. Premium</h2>
-              <p className="text-[#2B4141]/60 mt-4 text-lg">The free tier gets you fully in the challenge. The $49 upgrade gives you the tools to actually win it.</p>
+            <div className="text-center mb-20">
+              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Choose Your Experience</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">Free vs. Premium</h2>
+              <p className="text-[#2B4141]/50 mt-5 text-lg max-w-xl mx-auto leading-relaxed">
+                The free tier gets you fully in the challenge. The $49 upgrade gives you the tools to actually win it.
+              </p>
             </div>
-            <div className="grid sm:grid-cols-2 gap-8">
+            <div className="grid sm:grid-cols-2 gap-6">
               {/* Free */}
-              <div className="border-2 border-[#C8C2AE] rounded-3xl p-10">
-                <p className="text-[#2B4141]/50 text-sm font-black uppercase tracking-[0.2em] mb-2">Free</p>
-                <p className="text-4xl font-black text-[#2B4141] mb-8">$0</p>
-                <ul className="flex flex-col gap-3">
+              <div className="bg-white border border-[#e8e5e0] rounded-2xl p-10">
+                <p className="text-[#2B4141]/40 text-xs font-black uppercase tracking-[0.3em] mb-3">Free</p>
+                <p className="text-5xl font-black text-[#2B4141] mb-10">$0</p>
+                <ul className="flex flex-col gap-4 mb-10">
                   {freeFeatures.map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-[#2B4141]/80">
-                      <span className="text-[#0EB1D2] font-black text-lg">✓</span>
+                    <li key={f} className="flex items-center gap-3 text-[#2B4141]/70">
+                      <span className="w-5 h-5 rounded-full bg-[#0EB1D2]/15 flex items-center justify-center shrink-0">
+                        <span className="text-[#0EB1D2] text-xs font-black">✓</span>
+                      </span>
                       {f}
                     </li>
                   ))}
                 </ul>
                 <a
                   href="/register"
-                  className="mt-10 block text-center border-2 border-[#2B4141] text-[#2B4141] hover:bg-[#2B4141] hover:text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-md shadow-black/20"
+                  className="block text-center border-2 border-[#2B4141] text-[#2B4141] hover:bg-[#2B4141] hover:text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300"
                 >
                   Join Free
                 </a>
               </div>
               {/* Premium */}
-              <div className="bg-[#2B4141] rounded-3xl p-10">
-                <p className="text-[#34E4EA] text-sm font-black uppercase tracking-[0.2em] mb-2">Premium</p>
+              <div className="bg-[#2B4141] rounded-2xl p-10">
+                <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Premium</p>
                 <div className="flex items-end gap-2 mb-1">
-                  <p className="text-4xl font-black text-white">$49</p>
-                  <p className="text-white/50 mb-1">one-time</p>
+                  <p className="text-5xl font-black text-white">$49</p>
+                  <p className="text-white/40 mb-2">one-time</p>
                 </div>
-                <p className="text-white/40 text-sm mb-8">No subscription. No renewals.</p>
-                <ul className="flex flex-col gap-3">
+                <p className="text-white/30 text-sm mb-10">No subscription. No renewals.</p>
+                <ul className="flex flex-col gap-4 mb-10">
                   {premiumFeatures.map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-white/80">
-                      <span className="text-[#34E4EA] font-black text-lg">✓</span>
+                    <li key={f} className="flex items-center gap-3 text-white/70">
+                      <span className="w-5 h-5 rounded-full bg-[#34E4EA]/20 flex items-center justify-center shrink-0">
+                        <span className="text-[#34E4EA] text-xs font-black">✓</span>
+                      </span>
                       {f}
                     </li>
                   ))}
                 </ul>
                 <a
                   href="/register"
-                  className="mt-10 block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
+                  className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 >
                   Upgrade to Premium — $49
                 </a>
@@ -356,22 +349,22 @@ export default function Home() {
         </section>
 
         {/* WHO THIS IS FOR */}
-        <section className="bg-[#34E4EA] py-24 px-6">
+        <section className="bg-[#2B4141] py-24 px-6">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-[#2B4141]/60 text-sm font-black uppercase tracking-[0.3em] mb-4">Is This For You?</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141]">Who This Is For</h2>
+            <div className="text-center mb-16">
+              <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.4em] mb-6">Is This For You?</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-white">Who This Is For</h2>
             </div>
-            <ul className="flex flex-col gap-5">
+            <ul className="flex flex-col gap-4">
               {[
                 "Pickleball players who want to feel lighter and stronger on and off the court",
                 "Anyone 18+ who's done with going it alone and wants real accountability",
                 "People who've tried diets before and need a community, not a punishment",
                 "Players who are ready to make the transformation they keep talking about",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-4 bg-white/40 rounded-2xl px-8 py-5">
-                  <span className="text-[#2B4141] font-black text-2xl leading-none mt-0.5">→</span>
-                  <p className="text-[#2B4141] font-bold text-lg leading-snug">{item}</p>
+                <li key={item} className="flex items-start gap-5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl px-8 py-6 transition-all duration-300">
+                  <span className="text-[#0EB1D2] font-black text-xl leading-none mt-0.5 shrink-0">→</span>
+                  <p className="text-white/90 font-semibold text-lg leading-snug">{item}</p>
                 </li>
               ))}
             </ul>
@@ -379,14 +372,15 @@ export default function Home() {
         </section>
 
         {/* FROM NICO */}
-        <section className="bg-[#2B4141] py-24 px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-[#34E4EA] text-sm font-black uppercase tracking-[0.3em] mb-10">From the Creator</p>
-            <blockquote className="text-white text-2xl sm:text-3xl font-light leading-relaxed italic mb-10">
-              &ldquo;I&apos;m a lefty. I&apos;ve always done things a little differently — and this challenge is no different. It&apos;s not about perfection. It&apos;s about showing up for 60 days and letting a community of pickleball players push you further than you&apos;d go alone. I&apos;ve seen what happens when this community locks in on a goal together. The energy is unreal. Let&apos;s do this.&rdquo;
+        <section className="bg-white py-24 px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-16">From the Creator</p>
+            <span className="block text-[10rem] leading-none text-[#2B4141]/6 font-black -mb-12">&ldquo;</span>
+            <blockquote className="text-[#2B4141] text-2xl sm:text-3xl lg:text-4xl font-light leading-relaxed mb-16">
+              I&apos;m a lefty. I&apos;ve always done things a little differently — and this challenge is no different. It&apos;s not about perfection. It&apos;s about showing up for 60 days and letting a community of pickleball players push you further than you&apos;d go alone.
             </blockquote>
             <div className="flex items-center justify-center gap-4">
-              <div className="relative w-14 h-14 rounded-full overflow-hidden shrink-0">
+              <div className="relative w-16 h-16 rounded-full overflow-hidden shrink-0 ring-2 ring-[#2B4141]/10">
                 <Image
                   src="/images/IMG_0897.jpeg"
                   alt="Nico the Lefty"
@@ -396,25 +390,25 @@ export default function Home() {
                 />
               </div>
               <div className="text-left">
-                <p className="text-white font-black">Nico the Lefty</p>
-                <p className="text-white/50 text-sm">DUPR Master Instructor · Co-Host of PicklePod</p>
+                <p className="text-[#2B4141] font-black text-lg">Nico the Lefty</p>
+                <p className="text-[#2B4141]/40 text-sm">DUPR Master Instructor · Co-Host of PicklePod</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* FAQ */}
-        <section className="bg-white py-24 px-6">
+        <section className="bg-[#f7f7f5] py-24 px-6">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#0EB1D2] text-sm font-black uppercase tracking-[0.3em] mb-4">Got Questions?</p>
-              <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141]">FAQ</h2>
+            <div className="text-center mb-20">
+              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Got Questions?</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">FAQ</h2>
             </div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col divide-y divide-[#e8e5e0]">
               {faqs.map((item) => (
-                <div key={item.q} className="border-b border-[#C8C2AE] pb-6">
-                  <h3 className="text-[#2B4141] font-black text-lg mb-2">{item.q}</h3>
-                  <p className="text-[#2B4141]/70 leading-relaxed">{item.a}</p>
+                <div key={item.q} className="py-8">
+                  <h3 className="text-[#2B4141] font-black text-lg mb-3">{item.q}</h3>
+                  <p className="text-[#2B4141]/60 leading-relaxed">{item.a}</p>
                 </div>
               ))}
             </div>
@@ -422,29 +416,29 @@ export default function Home() {
         </section>
 
         {/* FINAL CTA */}
-        <section className="bg-[#0EB1D2] py-24 px-6">
+        <section className="bg-[#2B4141] py-24 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl sm:text-5xl font-black text-[#2B4141] leading-tight mb-6">
-              Your transformation starts with one decision.
+            <h2 className="text-5xl sm:text-6xl font-black text-white leading-tight mb-6">
+              Your transformation starts<br className="hidden sm:block" /> with one decision.
             </h2>
-            <p className="text-[#2B4141]/80 text-xl leading-relaxed mb-12">
-              Join pickleball players and fitness enthusiasts who are ready to make the next 60 days count. It&apos;s free. The community is waiting. And the prizes are real.
+            <p className="text-white/50 text-xl leading-relaxed mb-14 max-w-xl mx-auto">
+              Join pickleball players and fitness enthusiasts ready to make the next 60 days count. It&apos;s free. The community is waiting.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/register"
-                className="bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30"
+                className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
               </a>
               <a
                 href="#premium"
-                className="border-2 border-[#2B4141] text-[#2B4141] hover:bg-[#2B4141] hover:text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-colors shadow-md shadow-black/20"
+                className="border-2 border-white/20 text-white hover:border-white/50 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300"
               >
                 Upgrade to Premium — $49
               </a>
             </div>
-            <p className="text-[#2B4141]/60 text-sm mt-8">No credit card required to join free. Premium is a one-time $49 payment — no subscription.</p>
+            <p className="text-white/30 text-sm mt-10">No credit card required. Premium is a one-time $49 payment — no subscription.</p>
           </div>
         </section>
 

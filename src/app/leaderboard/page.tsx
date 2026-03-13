@@ -10,7 +10,13 @@ export const metadata = {
 const medals = ["🥇", "🥈", "🥉"];
 
 export default function LeaderboardPage() {
-  const { currentWeek, lastUpdated, challengeStarted, participants } = leaderboardData;
+  const { currentWeek, lastUpdated, challengeStarted, participants, sampleParticipants } = leaderboardData as {
+    currentWeek: number;
+    lastUpdated: string;
+    challengeStarted: boolean;
+    participants: { rank: number; handle: string; percentLost: number; streak: number; isFinalist?: boolean }[];
+    sampleParticipants: { rank: number; handle: string; percentLost: number; streak: number; isFinalist?: boolean }[];
+  };
 
   return (
     <>
@@ -31,18 +37,68 @@ export default function LeaderboardPage() {
         {/* LEADERBOARD */}
         <section className="max-w-3xl mx-auto px-6 py-16">
           {!challengeStarted ? (
-            <div className="text-center py-20">
-              <p className="text-6xl mb-6">🏆</p>
-              <h2 className="text-2xl font-black text-[#2B4141] mb-4">The challenge hasn&apos;t started yet.</h2>
-              <p className="text-[#2B4141]/60 text-lg mb-8">
-                Register now to secure your spot. The leaderboard goes live on Day 1.
+            <div className="py-6">
+              {/* Pre-launch banner */}
+              <div className="text-center mb-12">
+                <div className="w-16 h-1 bg-[#0EB1D2] rounded-full mx-auto mb-8" />
+                <h2 className="text-2xl font-black text-[#2B4141] mb-3">The challenge starts April 1.</h2>
+                <p className="text-[#2B4141]/60 text-lg mb-8">
+                  Register now to secure your spot. The leaderboard goes live on Day 1.
+                </p>
+                <a
+                  href="/register"
+                  className="inline-block bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
+                >
+                  Join Free →
+                </a>
+              </div>
+
+              {/* Sample preview */}
+              <div className="mb-6 flex items-center gap-4">
+                <div className="flex-1 h-px bg-[#e8e5e0]" />
+                <span className="text-xs font-black uppercase tracking-[0.3em] text-[#2B4141]/30">Sample Preview</span>
+                <div className="flex-1 h-px bg-[#e8e5e0]" />
+              </div>
+              <div className="flex flex-col gap-4 opacity-70">
+                <div className="grid grid-cols-12 px-4 text-xs font-black text-[#2B4141]/40 uppercase tracking-widest">
+                  <span className="col-span-1">Rank</span>
+                  <span className="col-span-7">Participant</span>
+                  <span className="col-span-2 text-center">% Lost</span>
+                  <span className="col-span-2 text-center">Streak</span>
+                </div>
+                {sampleParticipants.map((p, i) => (
+                  <div
+                    key={p.rank}
+                    className={`grid grid-cols-12 items-center rounded-2xl px-6 py-5 ${
+                      i === 0
+                        ? "bg-[#2B4141] text-white"
+                        : i === 1
+                        ? "bg-[#0EB1D2] text-white"
+                        : i === 2
+                        ? "bg-[#8AB9B5] text-[#2B4141]"
+                        : "bg-[#C8C2AE]/30 text-[#2B4141]"
+                    }`}
+                  >
+                    <span className="col-span-1 text-2xl">
+                      {i < 3 ? medals[i] : <span className="text-base font-black opacity-50">#{p.rank}</span>}
+                    </span>
+                    <div className="col-span-7">
+                      <p className="font-black text-lg">{p.handle}</p>
+                    </div>
+                    <div className="col-span-2 text-center">
+                      <p className="font-black text-xl">{p.percentLost}%</p>
+                      <p className="text-xs opacity-50">lost</p>
+                    </div>
+                    <div className="col-span-2 text-center">
+                      <p className="font-black text-xl">{p.streak}/8</p>
+                      <p className="text-xs opacity-50">check-ins</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="text-center text-xs text-[#2B4141]/30 mt-6 uppercase tracking-widest font-black">
+                Sample data — not real participants
               </p>
-              <a
-                href="/register"
-                className="inline-block bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-10 py-5 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
-              >
-                Join Free →
-              </a>
             </div>
           ) : participants.length === 0 ? (
             <div className="text-center py-20">

@@ -4,9 +4,9 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2B4141]/95 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="text-white font-black text-lg tracking-wide uppercase">
+        <a href="/" className="text-white font-black text-lg tracking-wide uppercase hover:opacity-80 transition-opacity duration-200">
           Lefty<span className="text-[#34E4EA]"> Reset</span>
-        </span>
+        </a>
         <div className="flex items-center gap-4">
           <a
             href="/#how-it-works"

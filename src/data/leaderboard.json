@@ -2,5 +2,15 @@
   "currentWeek": 0,
   "lastUpdated": "Challenge not started yet",
   "challengeStarted": false,
-  "participants": []
+  "participants": [],
+  "sampleParticipants": [
+    { "rank": 1, "handle": "@pklball_mike", "percentLost": 4.8, "streak": 3, "isFinalist": false },
+    { "rank": 2, "handle": "@leftyvibes", "percentLost": 4.1, "streak": 3, "isFinalist": false },
+    { "rank": 3, "handle": "@courtqueen_jen", "percentLost": 3.7, "streak": 3, "isFinalist": false },
+    { "rank": 4, "handle": "@dinkmaster99", "percentLost": 3.2, "streak": 2, "isFinalist": false },
+    { "rank": 5, "handle": "@reset_ready_tom", "percentLost": 2.9, "streak": 3, "isFinalist": false },
+    { "rank": 6, "handle": "@picklefit_sara", "percentLost": 2.5, "streak": 2, "isFinalist": false },
+    { "rank": 7, "handle": "@nolook_drop", "percentLost": 2.1, "streak": 2, "isFinalist": false },
+    { "rank": 8, "handle": "@third_shot_tony", "percentLost": 1.8, "streak": 1, "isFinalist": false }
+  ]
 }
