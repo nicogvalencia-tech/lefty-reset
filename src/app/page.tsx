@@ -66,7 +66,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full 60-day challenge, community access, and prize eligibility are 100% free. The $49 Premium upgrade is optional and one-time — no subscription, no hidden fees.",
+    a: "Yes. The full 60-day challenge, community access, and prize eligibility are 100% free. The $99 Premium upgrade is optional and one-time — no subscription, no hidden fees.",
   },
   {
     q: "Who can join?",
@@ -81,7 +81,7 @@ const faqs = [
     a: "Never. The leaderboard only displays your name or social handle. Your weight data is private and used only for prize tracking with your consent.",
   },
   {
-    q: "What's the $49 Premium upgrade?",
+    q: "What's the $99 Premium upgrade?",
     a: "A one-time payment that unlocks 8 weeks of coaching videos, meal guides, workout plans, a private members channel, and direct Q&A access with Nico on Skool.",
   },
   {
@@ -149,7 +149,7 @@ export default function Home() {
                 href="#premium"
                 className="border-2 border-white/30 text-white hover:border-white/70 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
-                Upgrade to Premium — $49
+                Upgrade to Premium — $99
               </a>
             </div>
           </div>
@@ -294,7 +294,7 @@ export default function Home() {
               <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Choose Your Experience</p>
               <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">Free vs. Premium</h2>
               <p className="text-[#2B4141]/50 mt-5 text-lg max-w-xl mx-auto leading-relaxed">
-                The free tier gets you fully in the challenge. The $49 upgrade gives you the tools to actually win it.
+                The free tier gets you fully in the challenge. The $99 upgrade gives you the tools to actually win it.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
@@ -323,7 +323,7 @@ export default function Home() {
               <div className="bg-[#2B4141] rounded-2xl p-10">
                 <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Premium</p>
                 <div className="flex items-end gap-2 mb-1">
-                  <p className="text-5xl font-black text-white">$49</p>
+                  <p className="text-5xl font-black text-white">$99</p>
                   <p className="text-white/40 mb-2">one-time</p>
                 </div>
                 <p className="text-white/30 text-sm mb-10">No subscription. No renewals.</p>
@@ -341,7 +341,7 @@ export default function Home() {
                   href="/register"
                   className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 >
-                  Upgrade to Premium — $49
+                  Upgrade to Premium — $99
                 </a>
               </div>
             </div>
@@ -435,10 +435,10 @@ export default function Home() {
                 href="#premium"
                 className="border-2 border-white/20 text-white hover:border-white/50 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300"
               >
-                Upgrade to Premium — $49
+                Upgrade to Premium — $99
               </a>
             </div>
-            <p className="text-white/30 text-sm mt-10">No credit card required. Premium is a one-time $49 payment — no subscription.</p>
+            <p className="text-white/30 text-sm mt-10">No credit card required. Premium is a one-time $99 payment — no subscription.</p>
           </div>
         </section>
 
