@@ -53,7 +53,7 @@ export default function PremiumPage() {
             Full prize eligibility, live sessions, private access, and weekly giveaways. Here's exactly what's included.
           </p>
           <a
-            href="https://skool.com/theleftyreset/join"
+            href="/register?plan=premium"
             className="inline-block mt-8 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
           >
             Upgrade to Premium — $99 →
@@ -85,7 +85,7 @@ export default function PremiumPage() {
         <div className="text-center mt-16">
           <p className="text-[#2B4141]/40 text-sm mb-6">Ready to go all in?</p>
           <a
-            href="https://skool.com/theleftyreset/join"
+            href="/register?plan=premium"
             className="inline-block bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
           >
             Upgrade to Premium — $99 →

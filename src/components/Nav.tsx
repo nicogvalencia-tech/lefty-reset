@@ -27,7 +27,7 @@ export default function Nav() {
             Leaderboard
           </a>
           <a
-            href="/register"
+            href="/register?plan=free"
             className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-sm px-5 py-2 rounded-full uppercase tracking-wide transition-colors shadow-md shadow-[#0EB1D2]/40"
           >
             Join Free

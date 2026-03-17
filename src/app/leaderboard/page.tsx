@@ -46,7 +46,7 @@ export default function LeaderboardPage() {
                   Register now to secure your spot. The leaderboard goes live on Day 1.
                 </p>
                 <a
-                  href="/register"
+                  href="/register?plan=free"
                   className="inline-block bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
                 >
                   Join Free →
