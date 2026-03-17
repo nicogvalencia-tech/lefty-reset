@@ -40,7 +40,7 @@ const prizes = [
   { place: "2nd Place", prize: "Premium Pickleball Paddle Package", highlight: false },
   { place: "3rd Place", prize: "Apparel + Gear Bundle", highlight: false },
   { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value)", highlight: false },
-  { place: "Weekly Giveaways", prize: "Prizes every week for active participants", highlight: false },
+  { place: "Weekly Giveaways", prize: "Prizes every week for Premium members who check in", highlight: false },
 ];
 
 const freeFeatures = [

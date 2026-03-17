@@ -26,11 +26,11 @@ Here's what to do right now:
 3. Start thinking about your goal — what does your transformation look like? Write it down. Put it somewhere you'll see it every day.
 
 **Multiple ways to win:**
-- Weekly giveaways just for showing up and checking in
+- Weekly giveaways for Premium members who check in each week
 - Community Fan Vote — most inspiring transformation (all members)
 - Grand Prize track — greatest % body weight lost (Premium members)
 
-Want access to the Grand Prize track and the full toolkit? Upgrade to Premium ($99) and unlock full prize eligibility, 8 weeks of coaching videos, meal guides, workout plans, live Zoom sessions, and direct Q&A access with me.
+Want full prize eligibility and the complete toolkit? Upgrade to Premium ($99) and unlock weekly giveaway eligibility, the Grand Prize track, 8 weeks of coaching videos, meal guides, workout plans, live Zoom sessions, and direct Q&A access with me.
 
 [Upgrade to Premium →](https://skool.com/theleftyreset)
 
@@ -57,13 +57,14 @@ Here's exactly how it works:
 1. On April 1, I'll post the codeword on Skool and send it by email
 2. Write the codeword on a piece of paper
 3. Take a full-body photo holding the sign
-4. Submit it at nicothelefty.com/checkin/start
+4. Take a second photo with the sign next to your scale, weight visible on the display
+5. Submit both photos at nicothelefty.com/checkin/start
 
-That photo + codeword = your official entry.
+That codeword + both photos = your official entry.
 
-And remember — you don't have to be chasing the Grand Prize to win something. Every week, active participants are entered into giveaways just for checking in. Show up consistently and you'll have a shot every single week.
+Every member should check in each week — it keeps your progress on the leaderboard and your streak alive. Premium members are also entered into weekly giveaways every time they check in.
 
-Not on Premium yet? The Grand Prize track (greatest % body weight lost) is exclusive to Premium members. Upgrade for $99 before April 1 to be eligible. [Upgrade here →](https://skool.com/theleftyreset)
+Not on Premium yet? Upgrade for $99 before April 1 to unlock weekly giveaway eligibility, the Grand Prize track, and the full coaching toolkit. [Upgrade here →](https://skool.com/theleftyreset)
 
 See you on April 1.
 
@@ -74,13 +75,13 @@ See you on April 1.
 ## EMAIL 3 — Day 7 (Week 1 Check-In)
 
 **Subject:** Week 1 check-in is open
-**Preview:** Submit your first weekly update — and you're entered to win.
+**Preview:** Submit your first weekly update — keep your streak alive.
 
 Hey {{ subscriber.first_name }},
 
 One week in. How are you feeling?
 
-It's time for your Week 1 check-in. This is how you stay on the leaderboard, stay eligible for prizes, and stay accountable.
+It's time for your Week 1 check-in. This is how you stay on the leaderboard, track your progress, and stay accountable.
 
 Submit here → nicothelefty.com/checkin/weekly
 
@@ -91,7 +92,7 @@ What you need:
 
 Takes 2 minutes. Do it now before you forget.
 
-Every member who submits a check-in this week is automatically entered into the Week 1 giveaway. The more weeks you check in, the more chances to win throughout the challenge.
+Premium members who check in this week are automatically entered into the Week 1 giveaway. Not on Premium? You can still check in — it updates your leaderboard standing and keeps your streak going.
 
 Then share it. Post a #LeftyTransformation update on Instagram or TikTok. The community wants to see it.
 
@@ -104,7 +105,7 @@ Keep going. Week 1 is always the hardest. You're already through it.
 ## EMAIL 4 — Day 14 (Week 2 Check-In)
 
 **Subject:** Leaderboard update + your Week 2 check-in
-**Preview:** Check in this week — and stay in the giveaway rotation.
+**Preview:** Check in this week — Premium members are entered to win.
 
 Hey {{ subscriber.first_name }},
 
@@ -114,7 +115,7 @@ The leaderboard is heating up. Head to nicothelefty.com/leaderboard to see the l
 
 Your Week 2 check-in is due → nicothelefty.com/checkin/weekly
 
-Every check-in keeps you in the weekly giveaway rotation. Miss a week and you miss your shot. It takes two minutes — don't leave it on the table.
+All members should check in to keep their leaderboard standing current. Premium members: every check-in enters you into the weekly giveaway. Miss a week and you miss your shot. It takes two minutes — don't leave it on the table.
 
 This week's challenge: share your meal prep. Post what you're eating to fuel your transformation using #LeftyTransformation.
 
@@ -137,7 +138,7 @@ If you've been consistent, you already have an edge. Keep it.
 
 Week 3 check-in → nicothelefty.com/checkin/weekly
 
-Consistent check-ins = weekly giveaway entries. Every week you show up is another shot at something. That's on top of the Fan Vote and the Grand Prize track for Premium members.
+Every check-in keeps your leaderboard standing current. Premium members: consistent check-ins = weekly giveaway entries, on top of the Fan Vote and the Grand Prize track.
 
 This week's focus: movement. Get on the court. Go for a walk. Do something that makes you feel like an athlete. Then post it with #LeftyTransformation.
 
@@ -160,7 +161,7 @@ Take a second to appreciate that. Then go submit your Week 4 check-in.
 
 Submit here → nicothelefty.com/checkin/weekly
 
-Four weeks of check-ins = four weeks of giveaway entries. If you've been consistent, you've already had more chances to win than most people realize. Keep going.
+Four weeks of check-ins = four weeks on the leaderboard. Premium members have been racking up weekly giveaway entries on top of that. If you're not on Premium yet and want full prize eligibility, there's still time. [Upgrade here →](https://skool.com/theleftyreset)
 
 This week's shoutout goes to the #LeftyTransformation community on social — the posts have been incredible. If you haven't shared yet, this is your week.
 
@@ -184,9 +185,9 @@ The results you're seeing now are the foundation for the results you'll see at t
 Week 5 check-in → nicothelefty.com/checkin/weekly
 
 Reminder of everything still on the table:
-- Weekly giveaways for every active check-in
-- Community Fan Vote — most inspiring transformation
-- Grand Prize track — greatest % body weight lost (Premium)
+- Weekly giveaways for Premium members with active check-ins
+- Community Fan Vote — most inspiring transformation (all members)
+- Grand Prize track — greatest % body weight lost (Premium members)
 - Over $5,000 in total cash and prizes
 
 This week: reflect. Look back at where you started. Write down three things that have changed. Share one with #LeftyTransformation.
@@ -230,10 +231,10 @@ This is it. Give it everything this final week.
 Week 7 check-in → nicothelefty.com/checkin/weekly
 
 Here's what happens next week (Day 60 — Final Check-In):
-- Submit your final weight and codeword photo at nicothelefty.com/checkin/final
+- Submit your final weight and codeword photos at nicothelefty.com/checkin/final
 - Premium members: your % body weight lost will be calculated for the Grand Prize track
+- Premium members: final weekly giveaway entry for those who checked in consistently
 - All members: finalist stories shared on Skool, community votes for the Fan Vote Winner
-- Final weekly giveaway announced
 
 Make sure your final check-in is submitted on time. Late submissions are not eligible.
 
@@ -258,14 +259,15 @@ You'll need:
 - Your email
 - Your final weight
 - Today's codeword (posted on Skool and in tomorrow's email)
-- Your full-body codeword photo
+- Photo 1: full-body photo holding the codeword sign
+- Photo 2: codeword sign next to your scale with weight visible on the display
 
 Deadline: May 30.
 
 After submissions close:
 - Grand Prize track calculated (Premium members — greatest % body weight lost)
 - Fan Vote opens — community votes for the most inspiring transformation
-- Final weekly giveaway winner announced
+- Final weekly giveaway winner announced (Premium members)
 - All results shared on Skool and social
 
 Whatever the result — finishing puts you ahead of most people who never even started.
@@ -302,7 +304,7 @@ Fan Vote Winner — [WINNER NAME]
 Voted by the community as the most inspiring transformation of the challenge. Winner receives a 4-month 1-on-1 coaching package from That Pickleball Trainer ($2,400 value).
 
 Weekly Giveaway Winners — [NAMES]
-Congratulations to everyone who won throughout the 60 days by showing up consistently.
+Congratulations to all Premium members who won throughout the 60 days by checking in consistently.
 
 [See all finalist stories on Skool →](https://skool.com/theleftyreset)
 
