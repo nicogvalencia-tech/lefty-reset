@@ -53,13 +53,12 @@ export default function RegistrationForm() {
           <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Want to win?</p>
           <h3 className="text-white text-2xl font-black mb-3">Upgrade to Premium — $99</h3>
           <p className="text-white/70 leading-relaxed mb-6">
-            Unlock 8 weeks of coaching videos, meal guides, weekly workout plans, and direct Q&A access with Nico. One-time payment. No subscription.
+            Unlock full prize eligibility, live Zoom sessions, and direct access to Nico. Upgrade for $99.
           </p>
           <ul className="flex flex-col gap-2 mb-8">
             {[
-              "8-week coaching video library",
-              "Meal & nutrition guides",
-              "Weekly workout plans",
+              "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
+              "Live Zoom sessions with Nico and expert guests",
               "Private premium members channel",
               "Direct Q&A access with Nico",
             ].map((f) => (
