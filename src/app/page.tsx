@@ -36,10 +36,10 @@ const steps = [
 ];
 
 const prizes = [
-  { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost (Premium)", highlight: true },
-  { place: "2nd Place", prize: "Premium Pickleball Paddle Package", highlight: false },
-  { place: "3rd Place", prize: "Apparel + Gear Bundle", highlight: false },
-  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value)", highlight: false },
+  { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost (All Members)", highlight: true },
+  { place: "2nd Place", prize: "Premium Pickleball Paddle Package (Premium Members)", highlight: false },
+  { place: "3rd Place", prize: "Apparel + Gear Bundle (Premium Members)", highlight: false },
+  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value) — All Members", highlight: false },
   { place: "Weekly Giveaways", prize: "Prizes every week for Premium members who check in", highlight: false },
 ];
 
@@ -47,17 +47,16 @@ const freeFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
-  "Limited prize eligibility",
+  "Workout plans & nutrition guides",
+  "Grand Prize & Fan Vote eligibility",
 ];
 
 const premiumFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
-  "Full prize eligibility",
-  "8-week coaching video library",
-  "Meal & nutrition guides",
-  "Weekly workout plans",
+  "Workout plans & nutrition guides",
+  "Full prize eligibility — all prizes including weekly giveaways",
   "Private premium members channel",
   "Direct Q&A access with Nico",
   "Live Zoom sessions with Nico and expert guests",
@@ -66,7 +65,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full 60-day challenge and community access are 100% free. Free members have limited prize eligibility. Upgrade to Premium ($99) for full prize eligibility plus the complete coaching toolkit.",
+    a: "Yes. The full challenge, workout plans, nutrition guides, and Grand Prize & Fan Vote eligibility are free. Upgrade to Premium ($99) for 2nd & 3rd place prize eligibility, weekly giveaways, live Zoom sessions, and direct Q&A with Nico.",
   },
   {
     q: "Who can join?",
@@ -82,7 +81,7 @@ const faqs = [
   },
   {
     q: "What's the $99 Premium upgrade?",
-    a: "The $99 Premium upgrade unlocks full prize eligibility, 8 weeks of coaching videos, meal guides, workout plans, a private members channel, and direct Q&A access with Nico on Skool.",
+    a: "The $99 Premium upgrade unlocks 2nd & 3rd place prize eligibility, weekly giveaways, live Zoom sessions, a private members channel, and direct Q&A access with Nico on Skool.",
   },
   {
     q: "What if I miss a weekly check-in?",

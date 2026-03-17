@@ -28,9 +28,9 @@ Here's what to do right now:
 **Multiple ways to win:**
 - Weekly giveaways for Premium members who check in each week
 - Community Fan Vote — most inspiring transformation (all members)
-- Grand Prize track — greatest % body weight lost (Premium members)
+- Grand Prize track — greatest % body weight lost (all members)
 
-Want full prize eligibility and the complete toolkit? Upgrade to Premium ($99) and unlock weekly giveaway eligibility, the Grand Prize track, 8 weeks of coaching videos, meal guides, workout plans, live Zoom sessions, and direct Q&A access with me.
+Want full prize eligibility and the complete toolkit? Upgrade to Premium ($99) and unlock weekly giveaway eligibility, the Grand Prize track, live Zoom sessions, private members channel, live Zoom sessions, and direct Q&A access with me.
 
 [Upgrade to Premium →](https://skool.com/theleftyreset)
 
@@ -187,7 +187,7 @@ Week 5 check-in → nicothelefty.com/checkin/weekly
 Reminder of everything still on the table:
 - Weekly giveaways for Premium members with active check-ins
 - Community Fan Vote — most inspiring transformation (all members)
-- Grand Prize track — greatest % body weight lost (Premium members)
+- Grand Prize track — greatest % body weight lost (all members)
 - Over $5,000 in total cash and prizes
 
 This week: reflect. Look back at where you started. Write down three things that have changed. Share one with #LeftyReset.
@@ -232,7 +232,7 @@ Week 7 check-in → nicothelefty.com/checkin/weekly
 
 Here's what happens next week (Day 60 — Final Check-In):
 - Submit your final weight and codeword photos at nicothelefty.com/checkin/final
-- Premium members: your % body weight lost will be calculated for the Grand Prize track
+- All members: your % body weight lost will be calculated for the Grand Prize track
 - Premium members: final weekly giveaway entry for those who checked in consistently
 - All members: finalist stories shared on Skool, community votes for the Fan Vote Winner
 
@@ -265,7 +265,7 @@ You'll need:
 Deadline: June 2.
 
 After submissions close:
-- Grand Prize track calculated (Premium members — greatest % body weight lost)
+- Grand Prize track calculated — greatest % body weight lost (all members)
 - Fan Vote opens — community votes for the most inspiring transformation
 - Final weekly giveaway winner announced (Premium members)
 - All results shared on Skool and social
