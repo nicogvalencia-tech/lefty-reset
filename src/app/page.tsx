@@ -323,7 +323,7 @@ export default function Home() {
                   <p className="text-5xl font-black text-white">$99</p>
                   <p className="text-white/40 mb-2">Premium</p>
                 </div>
-                <p className="text-white/30 text-sm mb-10">No subscription. No renewals.</p>
+                <div className="mb-10" />
                 <ul className="flex flex-col gap-4 mb-10">
                   {premiumFeatures.map((f) => (
                     <li key={f} className="flex items-center gap-3 text-white/70">
