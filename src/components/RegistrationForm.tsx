@@ -1,10 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function RegistrationForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [plan, setPlan] = useState("free");
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const p = params.get("plan");
+    if (p === "premium") setPlan("premium");
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -97,6 +104,7 @@ export default function RegistrationForm() {
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+        <input type="hidden" name="plan" value={plan} />
         {/* Name */}
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="flex flex-col gap-2">

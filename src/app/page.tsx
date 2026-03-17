@@ -136,7 +136,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/register"
+                href="/register?plan=free"
                 className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
@@ -213,7 +213,7 @@ export default function Home() {
                 <p className="text-white/50">Prizes awarded. Legends made. Your transformation celebrated.</p>
               </div>
               <a
-                href="/register"
+                href="/register?plan=free"
                 className="shrink-0 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
@@ -310,7 +310,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a
-                  href="/register"
+                  href="/register?plan=free"
                   className="block text-center border-2 border-[#2B4141] text-[#2B4141] hover:bg-[#2B4141] hover:text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300"
                 >
                   Join Free
@@ -335,7 +335,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a
-                  href="/register"
+                  href="/register?plan=premium"
                   className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 >
                   Upgrade to Premium — $99
@@ -423,13 +423,13 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/register"
+                href="/register?plan=free"
                 className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
               </a>
               <a
-                href="#premium"
+                href="/register?plan=premium"
                 className="border-2 border-white/20 text-white hover:border-white/50 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300"
               >
                 Upgrade to Premium — $99
