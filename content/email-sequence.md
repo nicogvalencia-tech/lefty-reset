@@ -30,7 +30,7 @@ Here's what to do right now:
 - Community Fan Vote — most inspiring transformation (all members)
 - Grand Prize track — greatest % body weight lost (Premium members)
 
-Want access to the Grand Prize track and the full toolkit? Upgrade to Premium ($99, one-time) and unlock the % body weight competition, 8 weeks of coaching videos, meal guides, workout plans, live Zoom sessions, and direct Q&A access with me.
+Want access to the Grand Prize track and the full toolkit? Upgrade to Premium ($99) and unlock full prize eligibility, 8 weeks of coaching videos, meal guides, workout plans, live Zoom sessions, and direct Q&A access with me.
 
 [Upgrade to Premium →](https://skool.com/theleftyreset)
 
@@ -63,7 +63,7 @@ That photo + codeword = your official entry.
 
 And remember — you don't have to be chasing the Grand Prize to win something. Every week, active participants are entered into giveaways just for checking in. Show up consistently and you'll have a shot every single week.
 
-Not on Premium yet? The Grand Prize track (greatest % body weight lost) is exclusive to Premium members. Upgrade for $99 one-time before April 1 to be eligible. [Upgrade here →](https://skool.com/theleftyreset)
+Not on Premium yet? The Grand Prize track (greatest % body weight lost) is exclusive to Premium members. Upgrade for $99 before April 1 to be eligible. [Upgrade here →](https://skool.com/theleftyreset)
 
 See you on April 1.
 

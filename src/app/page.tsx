@@ -66,7 +66,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full 60-day challenge, community access, and prize eligibility are 100% free. The $99 Premium upgrade is optional and one-time — no subscription, no hidden fees.",
+    a: "Yes. The full 60-day challenge and community access are 100% free. Free members have limited prize eligibility. Upgrade to Premium ($99) for full prize eligibility plus the complete coaching toolkit.",
   },
   {
     q: "Who can join?",
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: "What's the $99 Premium upgrade?",
-    a: "A one-time payment that unlocks 8 weeks of coaching videos, meal guides, workout plans, a private members channel, and direct Q&A access with Nico on Skool.",
+    a: "The $99 Premium upgrade unlocks full prize eligibility, 8 weeks of coaching videos, meal guides, workout plans, a private members channel, and direct Q&A access with Nico on Skool.",
   },
   {
     q: "What if I miss a weekly check-in?",
@@ -321,7 +321,7 @@ export default function Home() {
                 <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Premium</p>
                 <div className="flex items-end gap-2 mb-1">
                   <p className="text-5xl font-black text-white">$99</p>
-                  <p className="text-white/40 mb-2">one-time</p>
+                  <p className="text-white/40 mb-2">Premium</p>
                 </div>
                 <p className="text-white/30 text-sm mb-10">No subscription. No renewals.</p>
                 <ul className="flex flex-col gap-4 mb-10">
@@ -435,7 +435,7 @@ export default function Home() {
                 Upgrade to Premium — $99
               </a>
             </div>
-            <p className="text-white/30 text-sm mt-10">No credit card required. Premium is a one-time $99 payment — no subscription.</p>
+            <p className="text-white/30 text-sm mt-10">No credit card required to join free. Premium is $99.</p>
           </div>
         </section>
 
