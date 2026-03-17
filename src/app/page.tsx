@@ -102,7 +102,7 @@ export default function Home() {
           style={{ backgroundImage: "url('/images/gabin-vallet-J154nEkpzlQ-unsplash.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
         >
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-[#2B4141]/70" />
+          <div className="absolute inset-0 bg-[#2B4141]/80" />
           {/* Bottom fade */}
           <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#2B4141] to-transparent" />
           <div className="relative max-w-5xl mx-auto px-6 py-24 text-center">
