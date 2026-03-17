@@ -157,7 +157,7 @@ export default function Home() {
             { src: "/images/jon-matthews-mXlWibOKSdA-unsplash.jpg", alt: "Pickleball player hitting" },
             { src: "/images/unsplash-community-KWpxV0cqAT4-unsplash (1).jpg", alt: "Pickleball paddles tapping" },
             { src: "/images/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg", alt: "Healthy nutrition" },
-            { src: "/images/andrej-lisakov-BVITDGSdpE4-unsplash.jpg", alt: "Group workout" },
+            { src: "/images/CD.webp", alt: "Group workout" },
           ].map((img) => (
             <div key={img.src} className="relative overflow-hidden group">
               <Image
