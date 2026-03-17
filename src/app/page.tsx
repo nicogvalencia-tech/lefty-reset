@@ -36,11 +36,11 @@ const steps = [
 ];
 
 const prizes = [
-  { place: "Grand Prize", prize: "$1,000 Cash", highlight: true },
+  { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost (Premium)", highlight: true },
   { place: "2nd Place", prize: "Premium Pickleball Paddle Package", highlight: false },
   { place: "3rd Place", prize: "Apparel + Gear Bundle", highlight: false },
   { place: "Fan Vote Winner", prize: "Community-Voted Transformation Award", highlight: false },
-  { place: "Weekly Check-In Awards", prize: "Prizes awarded every week just for showing up", highlight: false },
+  { place: "Weekly Giveaways", prize: "Prizes every week for active participants", highlight: false },
 ];
 
 const freeFeatures = [
@@ -186,7 +186,7 @@ export default function Home() {
             </h2>
             <p className="text-[#2B4141]/70 text-xl sm:text-2xl leading-relaxed mb-6">
               60 days of showing up — tracking your weight, sharing your journey, and competing for over{" "}
-              <span className="text-[#2B4141] font-black">$1,000 in prizes</span> alongside a community of people just like you.
+              <span className="text-[#2B4141] font-black">$5,000 in cash and prizes</span> alongside a community of people just like you.
             </p>
             <p className="text-[#2B4141]/60 text-lg leading-relaxed">
               No elite athlete status required. No expensive equipment. No complicated program. Just you, your goals, and a community of pickleball players who actually get it.
@@ -266,6 +266,7 @@ export default function Home() {
             <div className="text-center mb-20">
               <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">What You&apos;re Playing For</p>
               <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">The Prizes</h2>
+              <p className="text-[#2B4141]/50 mt-4 text-lg">Over $5,000 in cash and prizes — multiple ways to win.</p>
             </div>
             <div className="flex flex-col gap-3">
               {prizes.map((item) => (
