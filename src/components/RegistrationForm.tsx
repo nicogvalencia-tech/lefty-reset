@@ -26,33 +26,54 @@ export default function RegistrationForm() {
   if (submitted) {
     return (
       <div className="text-center py-16 px-6">
-        <div className="text-5xl mb-6">🎉</div>
+        <div className="w-16 h-1 bg-[#0EB1D2] rounded-full mx-auto mb-8" />
         <h2 className="text-3xl font-black text-[#2B4141] mb-4">You&apos;re In!</h2>
-        <p className="text-[#2B4141]/70 text-lg mb-10">
-          Watch your email — next steps are coming soon. Welcome to the Lefty Reset.
+        <p className="text-[#2B4141]/60 text-lg mb-12">
+          Welcome to the Lefty Reset. Here&apos;s what to do next.
         </p>
-        {/* Step 2 — Upgrade upsell */}
+
+        {/* Step 1 — Join Skool */}
+        <div className="bg-[#0EB1D2] rounded-3xl p-10 max-w-lg mx-auto text-left mb-6">
+          <p className="text-white/70 text-xs font-black uppercase tracking-[0.3em] mb-3">Step 1 — Join the Community</p>
+          <h3 className="text-white text-2xl font-black mb-3">Register on Skool</h3>
+          <p className="text-white/80 leading-relaxed mb-6">
+            Head over to the Lefty Reset community on Skool to complete your registration. This is where everything happens — check-ins, leaderboard, live sessions, and more.
+          </p>
+          <a
+            href="https://skool.com/theleftyreset/join"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30"
+          >
+            Join the Community on Skool →
+          </a>
+        </div>
+
+        {/* Step 2 — Upgrade to Premium */}
         <div className="bg-[#2B4141] rounded-3xl p-10 max-w-lg mx-auto text-left">
-          <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Want to win?</p>
+          <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Step 2 — Want Full Prize Eligibility?</p>
           <h3 className="text-white text-2xl font-black mb-3">Upgrade to Premium — $99</h3>
           <p className="text-white/70 leading-relaxed mb-6">
-            Unlock full prize eligibility, live Zoom sessions, and direct access to Nico. Upgrade for $99.
+            Once you&apos;ve registered on Skool, you can upgrade to Premium for full prize eligibility and exclusive access. Here&apos;s everything that&apos;s included:
           </p>
-          <ul className="flex flex-col gap-2 mb-8">
+          <ul className="flex flex-col gap-3 mb-8">
             {[
-              "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
+              "Grand Prize eligibility — $1,000 cash (greatest % body weight lost)",
+              "Fan Vote eligibility — 4-month 1-on-1 coaching from That Pickleball Trainer ($2,400 value)",
+              "Weekly giveaway entries for every active check-in",
               "Live Zoom sessions with Nico and expert guests",
-              "Private premium members channel",
+              "Private Premium members channel",
               "Direct Q&A access with Nico",
             ].map((f) => (
-              <li key={f} className="flex items-center gap-3 text-white/80 text-sm">
-                <span className="text-[#34E4EA] font-black">✓</span>
+              <li key={f} className="flex items-start gap-3 text-white/80 text-sm">
+                <span className="text-[#34E4EA] font-black mt-0.5">✓</span>
                 {f}
               </li>
             ))}
           </ul>
+          <p className="text-white/40 text-xs mb-6">You must register on Skool first before upgrading to Premium.</p>
           <a
-            href="https://skool.com"
+            href="https://skool.com/theleftyreset/join"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
