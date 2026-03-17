@@ -102,11 +102,11 @@ export default function Home() {
             src="/images/gabin-vallet-J154nEkpzlQ-unsplash.jpg"
             alt="Community running together"
             fill
-            className="object-cover opacity-50"
+            className="object-cover opacity-60"
             priority
           />
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-[#2B4141]/60" />
+          <div className="absolute inset-0 bg-black/40" />
           {/* Bottom fade */}
           <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#2B4141] to-transparent" />
           <div className="relative max-w-5xl mx-auto px-6 py-24 text-center">
@@ -125,13 +125,11 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center mb-8">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/images/The Lefty Reset Logo Light Final.svg"
                 alt="The Lefty Reset — 60-Day Transformation Challenge"
-                width={560}
-                height={200}
                 className="w-full max-w-xl"
-                priority
               />
             </div>
             <p className="text-white/70 text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-4">
