@@ -73,7 +73,7 @@ export default function RegistrationForm() {
           </ul>
           <p className="text-white/40 text-xs mb-6">You must register on Skool first before upgrading to Premium.</p>
           <a
-            href="https://skool.com/theleftyreset/join"
+            href="https://www.skool.com/theleftyreset/plans"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-[#0EB1D2]/40"
