@@ -21,7 +21,7 @@ const steps = [
   {
     number: "04",
     title: "Post Your Journey",
-    body: "Share wins, meals, workouts, and moments on Instagram or TikTok using #LeftyReset. Get featured, get cheered on, get inspired.",
+    body: "Share wins, meals, workouts, and moments on Instagram, TikTok, or Facebook using #LeftyReset. Get featured, get cheered on, get inspired.",
   },
   {
     number: "05",

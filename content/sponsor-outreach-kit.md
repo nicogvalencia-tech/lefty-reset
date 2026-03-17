@@ -62,7 +62,7 @@ Nico the Lefty is a DUPR Master Instructor, pickleball content creator, and co-h
 ---
 
 **THE CHALLENGE**
-The Lefty Reset is a free, 60-day community weight loss and fitness challenge built for pickleball players and fitness enthusiasts. Participants check in weekly, track their results, and compete for a $1,000 grand prize across two winner tracks: greatest % body weight lost (objective) and a community-voted Fan Vote transformation award (subjective). The entire challenge lives inside a dedicated Skool community, with a premium paid tier ($49 one-time), weekly leaderboards, coaching content, and daily #LeftyReset activity on Instagram and TikTok. 1,000+ participants expected at launch.
+The Lefty Reset is a free, 60-day community weight loss and fitness challenge built for pickleball players and fitness enthusiasts. Participants check in weekly, track their results, and compete for a $1,000 grand prize across two winner tracks: greatest % body weight lost (objective) and a community-voted Fan Vote transformation award (subjective). The entire challenge lives inside a dedicated Skool community, with a premium paid tier ($49 one-time), weekly leaderboards, coaching content, and daily #LeftyReset activity on Instagram, TikTok, and Facebook. 1,000+ participants expected at launch.
 
 ---
 

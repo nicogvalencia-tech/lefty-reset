@@ -94,7 +94,7 @@ Takes 2 minutes. Do it now before you forget.
 
 Premium members who check in this week are automatically entered into the Week 1 giveaway. Not on Premium? You can still check in — it updates your leaderboard standing and keeps your streak going.
 
-Then share it. Post a #LeftyReset update on Instagram or TikTok. The community wants to see it.
+Then share it. Post a #LeftyReset update on Instagram, TikTok, or Facebook. The community wants to see it.
 
 Keep going. Week 1 is always the hardest. You're already through it.
 

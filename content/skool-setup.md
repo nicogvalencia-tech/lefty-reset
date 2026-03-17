@@ -81,7 +81,7 @@ Pin this in the community so members know how to participate on social.
 **Title:** 📸 How to Use #LeftyReset
 
 **Body:**
-> Every post you share on Instagram or TikTok with #LeftyReset gets you seen — by the community, by Nico, and by anyone following the challenge.
+> Every post you share on Instagram, TikTok, or Facebook with #LeftyReset gets you seen — by the community, by Nico, and by anyone following the challenge.
 >
 > What to post:
 > - Your Day 1 or weekly check-in photo
@@ -110,7 +110,7 @@ Pin this in the community so members know how to participate on social.
 >
 > 3. Follow the pinned posts at the top of this feed — they'll keep you up to date on codewords, check-in threads, and leaderboard updates.
 >
-> 4. Start posting with #LeftyReset on Instagram or TikTok to let your followers know you're in.
+> 4. Start posting with #LeftyReset on Instagram, TikTok, or Facebook to let your followers know you're in.
 >
 > The challenge kicks off on [CHALLENGE START DATE]. Between now and then — get ready, get your community going, and get excited.
 >
