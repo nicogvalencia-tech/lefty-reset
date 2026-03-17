@@ -129,7 +129,7 @@ export default function Home() {
               />
             </div>
             <p className="text-white/70 text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-4">
-              A free, community-driven weight loss and fitness challenge built for pickleball players ready to finally do it.
+              A community-driven weight loss and fitness challenge built for pickleball players ready to finally do it.
             </p>
             <p className="text-[#8AB9B5] text-sm font-semibold mb-12 tracking-wide">
               Registration open for the first 30 days — latecomers welcome.
