@@ -37,9 +37,7 @@ const steps = [
 
 const prizes = [
   { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost (All Members)", highlight: true },
-  { place: "2nd Place", prize: "Premium Pickleball Paddle Package (Premium Members)", highlight: false },
-  { place: "3rd Place", prize: "Apparel + Gear Bundle (Premium Members)", highlight: false },
-  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value) — All Members", highlight: false },
+  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value) — Premium Members", highlight: false },
   { place: "Weekly Giveaways", prize: "Prizes every week for Premium members who check in", highlight: false },
 ];
 
@@ -48,7 +46,7 @@ const freeFeatures = [
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
   "Workout plans & nutrition guides",
-  "Grand Prize & Fan Vote eligibility",
+  "Grand Prize eligibility",
 ];
 
 const premiumFeatures = [
@@ -56,7 +54,7 @@ const premiumFeatures = [
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
   "Workout plans & nutrition guides",
-  "Full prize eligibility — all prizes including weekly giveaways",
+  "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
   "Private premium members channel",
   "Direct Q&A access with Nico",
   "Live Zoom sessions with Nico and expert guests",
@@ -65,7 +63,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full challenge, workout plans, nutrition guides, and Grand Prize & Fan Vote eligibility are free. Upgrade to Premium ($99) for 2nd & 3rd place prize eligibility, weekly giveaways, live Zoom sessions, and direct Q&A with Nico.",
+    a: "Yes. The full challenge, workout plans, nutrition guides, and Grand Prize eligibility are free. Upgrade to Premium ($99) for Fan Vote eligibility, weekly giveaways, live Zoom sessions, and direct Q&A with Nico.",
   },
   {
     q: "Who can join?",
@@ -81,7 +79,7 @@ const faqs = [
   },
   {
     q: "What's the $99 Premium upgrade?",
-    a: "The $99 Premium upgrade unlocks 2nd & 3rd place prize eligibility, weekly giveaways, live Zoom sessions, a private members channel, and direct Q&A access with Nico on Skool.",
+    a: "The $99 Premium upgrade unlocks Fan Vote eligibility, weekly giveaways, live Zoom sessions, a private members channel, and direct Q&A access with Nico on Skool.",
   },
   {
     q: "What if I miss a weekly check-in?",

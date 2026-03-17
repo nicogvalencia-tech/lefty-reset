@@ -27,7 +27,7 @@ Here's what to do right now:
 
 **Multiple ways to win:**
 - Weekly giveaways for Premium members who check in each week
-- Community Fan Vote — most inspiring transformation (all members)
+- Community Fan Vote — most inspiring transformation (Premium members)
 - Grand Prize track — greatest % body weight lost (all members)
 
 Want full prize eligibility and the complete toolkit? Upgrade to Premium ($99) and unlock weekly giveaway eligibility, the Grand Prize track, live Zoom sessions, private members channel, live Zoom sessions, and direct Q&A access with me.
@@ -186,7 +186,7 @@ Week 5 check-in → nicothelefty.com/checkin/weekly
 
 Reminder of everything still on the table:
 - Weekly giveaways for Premium members with active check-ins
-- Community Fan Vote — most inspiring transformation (all members)
+- Community Fan Vote — most inspiring transformation (Premium members)
 - Grand Prize track — greatest % body weight lost (all members)
 - Over $5,000 in total cash and prizes
 
@@ -234,7 +234,7 @@ Here's what happens next week (Day 60 — Final Check-In):
 - Submit your final weight and codeword photos at nicothelefty.com/checkin/final
 - All members: your % body weight lost will be calculated for the Grand Prize track
 - Premium members: final weekly giveaway entry for those who checked in consistently
-- All members: finalist stories shared on Skool, community votes for the Fan Vote Winner
+- Premium members: finalist stories shared on Skool, community votes for the Fan Vote Winner
 
 Make sure your final check-in is submitted on time. Late submissions are not eligible.
 
@@ -266,7 +266,7 @@ Deadline: June 2.
 
 After submissions close:
 - Grand Prize track calculated — greatest % body weight lost (all members)
-- Fan Vote opens — community votes for the most inspiring transformation
+- Fan Vote opens — community votes for the most inspiring transformation (Premium members)
 - Final weekly giveaway winner announced (Premium members)
 - All results shared on Skool and social
 
