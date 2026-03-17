@@ -262,7 +262,7 @@ You'll need:
 - Photo 1: full-body photo holding the codeword sign
 - Photo 2: codeword sign next to your scale with weight visible on the display
 
-Deadline: May 30.
+Deadline: June 2.
 
 After submissions close:
 - Grand Prize track calculated (Premium members — greatest % body weight lost)
