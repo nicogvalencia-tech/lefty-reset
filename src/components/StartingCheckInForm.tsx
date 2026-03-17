@@ -98,15 +98,27 @@ export default function StartingCheckInForm() {
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">Starting Photo *</label>
+          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">Photo 1 — Full Body *</label>
           <input
             type="file"
-            name="startingPhoto"
+            name="startingPhotoFullBody"
             required
             accept="image/*"
             className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141]/70 focus:outline-none focus:border-[#0EB1D2] transition-colors file:mr-4 file:py-1 file:px-4 file:rounded-full file:border-0 file:bg-[#0EB1D2] file:text-white file:font-bold file:text-sm cursor-pointer"
           />
           <p className="text-xs text-[#2B4141]/40">Full body photo holding a sign with today&apos;s codeword written on it.</p>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">Photo 2 — Scale *</label>
+          <input
+            type="file"
+            name="startingPhotoScale"
+            required
+            accept="image/*"
+            className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141]/70 focus:outline-none focus:border-[#0EB1D2] transition-colors file:mr-4 file:py-1 file:px-4 file:rounded-full file:border-0 file:bg-[#0EB1D2] file:text-white file:font-bold file:text-sm cursor-pointer"
+          />
+          <p className="text-xs text-[#2B4141]/40">Photo of your scale showing your weight with the codeword sign next to it.</p>
         </div>
 
         <div className="flex flex-col gap-2">
