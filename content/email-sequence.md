@@ -94,7 +94,7 @@ Takes 2 minutes. Do it now before you forget.
 
 Premium members who check in this week are automatically entered into the Week 1 giveaway. Not on Premium? You can still check in — it updates your leaderboard standing and keeps your streak going.
 
-Then share it. Post a #LeftyTransformation update on Instagram or TikTok. The community wants to see it.
+Then share it. Post a #LeftyReset update on Instagram or TikTok. The community wants to see it.
 
 Keep going. Week 1 is always the hardest. You're already through it.
 
@@ -117,7 +117,7 @@ Your Week 2 check-in is due → nicothelefty.com/checkin/weekly
 
 All members should check in to keep their leaderboard standing current. Premium members: every check-in enters you into the weekly giveaway. Miss a week and you miss your shot. It takes two minutes — don't leave it on the table.
 
-This week's challenge: share your meal prep. Post what you're eating to fuel your transformation using #LeftyTransformation.
+This week's challenge: share your meal prep. Post what you're eating to fuel your transformation using #LeftyReset.
 
 Two weeks down. Six to go. Over $5,000 in prizes waiting at the finish line.
 
@@ -140,7 +140,7 @@ Week 3 check-in → nicothelefty.com/checkin/weekly
 
 Every check-in keeps your leaderboard standing current. Premium members: consistent check-ins = weekly giveaway entries, on top of the Fan Vote and the Grand Prize track.
 
-This week's focus: movement. Get on the court. Go for a walk. Do something that makes you feel like an athlete. Then post it with #LeftyTransformation.
+This week's focus: movement. Get on the court. Go for a walk. Do something that makes you feel like an athlete. Then post it with #LeftyReset.
 
 You signed up for this for a reason. Remember what it is.
 
@@ -163,7 +163,7 @@ Submit here → nicothelefty.com/checkin/weekly
 
 Four weeks of check-ins = four weeks on the leaderboard. Premium members have been racking up weekly giveaway entries on top of that. If you're not on Premium yet and want full prize eligibility, there's still time. [Upgrade here →](https://skool.com/theleftyreset)
 
-This week's shoutout goes to the #LeftyTransformation community on social — the posts have been incredible. If you haven't shared yet, this is your week.
+This week's shoutout goes to the #LeftyReset community on social — the posts have been incredible. If you haven't shared yet, this is your week.
 
 Four weeks down. Four to go.
 
@@ -190,7 +190,7 @@ Reminder of everything still on the table:
 - Grand Prize track — greatest % body weight lost (Premium members)
 - Over $5,000 in total cash and prizes
 
-This week: reflect. Look back at where you started. Write down three things that have changed. Share one with #LeftyTransformation.
+This week: reflect. Look back at where you started. Write down three things that have changed. Share one with #LeftyReset.
 
 — Nico
 
@@ -207,7 +207,7 @@ Six weeks. The transformation is real for a lot of people in this community — 
 
 Week 6 check-in → nicothelefty.com/checkin/weekly
 
-This week on Skool I'm posting community shoutouts — people who have been showing up consistently and inspiring others. Get your name in the mix by posting with #LeftyTransformation.
+This week on Skool I'm posting community shoutouts — people who have been showing up consistently and inspiring others. Get your name in the mix by posting with #LeftyReset.
 
 Two weeks left. The Fan Vote is coming — and the community decides that winner. The more visible you've been, the better your shot.
 

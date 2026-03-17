@@ -10,7 +10,7 @@
 
 ### Instagram
 1. **Announcement post** — Bold graphic or video. "Something big is coming. 60 days. $1,000. And I need YOU."
-   - Caption: "I've been working on something for this community for a while now. It drops [DATE]. Follow along. 👀 #LeftyTransformation #LeftyReset"
+   - Caption: "I've been working on something for this community for a while now. It drops [DATE]. Follow along. 👀 #LeftyReset #LeftyReset"
 2. **Teaser Reel** — Nico on the court, energetic. "What if 60 days could change everything? Stay tuned."
 3. **Prize reveal post** — Graphic showing $1,000 grand prize. "Grand Prize: $1,000 cash. Free to enter. Details dropping [DATE]."
 
@@ -63,11 +63,11 @@ Not live yet — use this week to finalize community setup.
 ### Instagram
 1. **"Day 1 is HERE" post** — High energy. "The Lefty Reset officially starts TODAY. Today's codeword is [WORD]. Get your photo, submit your check-in. Let's go. 🔥"
 2. **Codeword announcement Story** — Swipe up / link sticker to nicothelefty.com/checkin
-3. **Repost early #LeftyTransformation posts** — Share participant Day 1 posts in Stories.
+3. **Repost early #LeftyReset posts** — Share participant Day 1 posts in Stories.
 
 ### TikTok
 1. **Day 1 hype video** — Nico on camera. "Day 1 of the Lefty Reset. Here's your codeword. Here's what to do right now."
-2. **Duet / Stitch early participant posts** — React to first #LeftyTransformation videos.
+2. **Duet / Stitch early participant posts** — React to first #LeftyReset videos.
 
 ### Facebook
 1. **Day 1 kickoff post** — Full codeword announcement, check-in link, encouragement.
@@ -87,8 +87,8 @@ Not live yet — use this week to finalize community setup.
 
 ### Instagram
 1. **Week 2 codeword announcement** — Story + post.
-2. **"What are you eating this week?" engagement post** — Ask community to share meal prep pics with #LeftyTransformation.
-3. **Feature a participant post** — Repost a #LeftyTransformation submission with permission.
+2. **"What are you eating this week?" engagement post** — Ask community to share meal prep pics with #LeftyReset.
+3. **Feature a participant post** — Repost a #LeftyReset submission with permission.
 
 ### TikTok
 1. **Nico's meal prep video** — "What I'm eating during the Lefty Reset this week."
@@ -112,7 +112,7 @@ Not live yet — use this week to finalize community setup.
 
 ### Instagram
 1. **Week 3 codeword + check-in reminder.**
-2. **Participant spotlight** — Feature 1–2 #LeftyTransformation stories. "This is why I built this challenge."
+2. **Participant spotlight** — Feature 1–2 #LeftyReset stories. "This is why I built this challenge."
 3. **"Hardest part so far?" engagement post** — Ask community what their biggest struggle has been.
 
 ### TikTok
@@ -167,7 +167,7 @@ Not live yet — use this week to finalize community setup.
 
 ### TikTok
 1. **"Second half pep talk" video** — Nico directly to camera. Raw and motivating.
-2. **Participant duet/reaction** — React to a standout #LeftyTransformation post.
+2. **Participant duet/reaction** — React to a standout #LeftyReset post.
 
 ### Facebook
 1. **"Tag someone who's been crushing it" post** — Engagement + community recognition.
@@ -186,7 +186,7 @@ Not live yet — use this week to finalize community setup.
 **Goal:** Spotlight the community. Social proof at its peak.
 
 ### Instagram
-1. **Multiple participant spotlights** — Feature 3–4 #LeftyTransformation posts in a carousel.
+1. **Multiple participant spotlights** — Feature 3–4 #LeftyReset posts in a carousel.
 2. **Week 6 codeword.**
 3. **"Two weeks left" urgency post.**
 

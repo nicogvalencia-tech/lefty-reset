@@ -21,7 +21,7 @@ const steps = [
   {
     number: "04",
     title: "Post Your Journey",
-    body: "Share wins, meals, workouts, and moments on Instagram or TikTok using #LeftyTransformation. Get featured, get cheered on, get inspired.",
+    body: "Share wins, meals, workouts, and moments on Instagram or TikTok using #LeftyReset. Get featured, get cheered on, get inspired.",
   },
   {
     number: "05",
@@ -46,14 +46,14 @@ const prizes = [
 const freeFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
-  "Community feed & #LeftyTransformation",
+  "Community feed & #LeftyReset",
   "Limited prize eligibility",
 ];
 
 const premiumFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
-  "Community feed & #LeftyTransformation",
+  "Community feed & #LeftyReset",
   "Full prize eligibility",
   "8-week coaching video library",
   "Meal & nutrition guides",

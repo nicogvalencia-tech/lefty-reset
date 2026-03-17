@@ -33,7 +33,7 @@ The heart of the challenge. Everyone (free + premium) has access.
 1. Welcome + How It Works
 2. This Week's Codeword (updated each check-in day)
 3. Weekly Leaderboard (updated each week, handles only)
-4. #LeftyTransformation — How to Post
+4. #LeftyReset — How to Post
 
 **Regular post categories:**
 - Weekly check-in thread (pinned each Monday)
@@ -75,13 +75,13 @@ Post every Friday after collecting check-ins.
 
 ---
 
-### #LeftyTransformation Post Guide
+### #LeftyReset Post Guide
 Pin this in the community so members know how to participate on social.
 
-**Title:** 📸 How to Use #LeftyTransformation
+**Title:** 📸 How to Use #LeftyReset
 
 **Body:**
-> Every post you share on Instagram or TikTok with #LeftyTransformation gets you seen — by the community, by Nico, and by anyone following the challenge.
+> Every post you share on Instagram or TikTok with #LeftyReset gets you seen — by the community, by Nico, and by anyone following the challenge.
 >
 > What to post:
 > - Your Day 1 or weekly check-in photo
@@ -90,7 +90,7 @@ Pin this in the community so members know how to participate on social.
 > - A mindset moment
 > - Anything from your journey
 >
-> Tag @nicothelefty and use #LeftyTransformation on every post.
+> Tag @nicothelefty and use #LeftyReset on every post.
 > The most consistent posters get featured and shouted out.
 
 ---
@@ -110,7 +110,7 @@ Pin this in the community so members know how to participate on social.
 >
 > 3. Follow the pinned posts at the top of this feed — they'll keep you up to date on codewords, check-in threads, and leaderboard updates.
 >
-> 4. Start posting with #LeftyTransformation on Instagram or TikTok to let your followers know you're in.
+> 4. Start posting with #LeftyReset on Instagram or TikTok to let your followers know you're in.
 >
 > The challenge kicks off on [CHALLENGE START DATE]. Between now and then — get ready, get your community going, and get excited.
 >
@@ -307,4 +307,4 @@ Premium members get everything in the free tier PLUS access to the full Classroo
 | Monday | Post weekly check-in thread + send codeword email |
 | Wednesday | Post community engagement prompt (meal, workout, mindset) |
 | Friday | Post anonymized leaderboard update |
-| Ongoing | Reply to community posts, feature #LeftyTransformation content |
+| Ongoing | Reply to community posts, feature #LeftyReset content |

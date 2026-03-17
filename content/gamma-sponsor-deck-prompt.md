@@ -34,7 +34,7 @@ Two winner tracks:
 - Greatest % body weight lost (objective)
 - Community Fan Vote — most inspiring transformation (subjective)
 
-The challenge runs inside a dedicated Skool community with weekly leaderboards, coaching content, and daily #LeftyTransformation posts across Instagram and TikTok.
+The challenge runs inside a dedicated Skool community with weekly leaderboards, coaching content, and daily #LeftyReset posts across Instagram and TikTok.
 
 ---
 
