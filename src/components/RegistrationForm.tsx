@@ -51,7 +51,7 @@ export default function RegistrationForm() {
         {/* Step 2 — Upgrade upsell */}
         <div className="bg-[#2B4141] rounded-3xl p-10 max-w-lg mx-auto text-left">
           <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Want to win?</p>
-          <h3 className="text-white text-2xl font-black mb-3">Upgrade to Premium — $49</h3>
+          <h3 className="text-white text-2xl font-black mb-3">Upgrade to Premium — $99</h3>
           <p className="text-white/70 leading-relaxed mb-6">
             Unlock 8 weeks of coaching videos, meal guides, weekly workout plans, and direct Q&A access with Nico. One-time payment. No subscription.
           </p>
@@ -222,7 +222,7 @@ export default function RegistrationForm() {
         </button>
 
         <p className="text-center text-xs text-[#2B4141]/40">
-          No credit card required. You can upgrade to Premium ($49 one-time) after registering.
+          No credit card required. You can upgrade to Premium ($99 one-time) after registering.
         </p>
       </form>
     </div>
