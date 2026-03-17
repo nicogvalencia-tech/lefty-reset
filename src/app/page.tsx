@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "What if I miss a weekly check-in?",
-    a: "You can still participate, but consistent check-ins are required for prize eligibility. We'll send you reminders every week.",
+    a: "You can still participate, but consistent check-ins are required for full prize eligibility. We'll send you reminders every week.",
   },
 ];
 
