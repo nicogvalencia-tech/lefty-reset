@@ -299,7 +299,7 @@ Greatest % body weight lost among Premium members. Congratulations.
 [Prize details.]
 
 Fan Vote Winner — [WINNER NAME]
-Voted by the community as the most inspiring transformation of the challenge.
+Voted by the community as the most inspiring transformation of the challenge. Winner receives a 4-month 1-on-1 coaching package from That Pickleball Trainer ($2,400 value).
 
 Weekly Giveaway Winners — [NAMES]
 Congratulations to everyone who won throughout the 60 days by showing up consistently.
