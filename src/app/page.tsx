@@ -47,14 +47,14 @@ const freeFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
   "Community feed & #LeftyTransformation",
-  "Prize eligibility",
+  "Limited prize eligibility",
 ];
 
 const premiumFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
   "Community feed & #LeftyTransformation",
-  "Prize eligibility",
+  "Full prize eligibility",
   "8-week coaching video library",
   "Meal & nutrition guides",
   "Weekly workout plans",
