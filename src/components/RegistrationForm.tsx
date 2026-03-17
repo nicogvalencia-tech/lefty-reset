@@ -40,7 +40,7 @@ export default function RegistrationForm() {
             Head over to the Lefty Reset community on Skool to complete your registration. This is where everything happens — check-ins, leaderboard, live sessions, and more.
           </p>
           <a
-            href="https://skool.com/theleftyreset/join"
+            href="https://www.skool.com/theleftyreset"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30"
