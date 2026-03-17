@@ -29,25 +29,8 @@ export default function RegistrationForm() {
         <div className="text-5xl mb-6">🎉</div>
         <h2 className="text-3xl font-black text-[#2B4141] mb-4">You&apos;re In!</h2>
         <p className="text-[#2B4141]/70 text-lg mb-10">
-          Watch your email for your first steps. Welcome to the Lefty Reset.
+          Watch your email — next steps are coming soon. Welcome to the Lefty Reset.
         </p>
-        {/* Step 1 — Join the community */}
-        <div className="bg-[#0EB1D2] rounded-3xl p-10 max-w-lg mx-auto text-left mb-6">
-          <p className="text-white/70 text-xs font-black uppercase tracking-[0.3em] mb-3">Step 2 — Join the Community</p>
-          <h3 className="text-white text-2xl font-black mb-3">Join Us on Skool</h3>
-          <p className="text-white/80 leading-relaxed mb-6">
-            Head over to our Skool community to complete your registration, meet your fellow challengers, and get ready for Day 1.
-          </p>
-          <a
-            href="https://skool.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-center bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30"
-          >
-            Join the Community on Skool →
-          </a>
-        </div>
-
         {/* Step 2 — Upgrade upsell */}
         <div className="bg-[#2B4141] rounded-3xl p-10 max-w-lg mx-auto text-left">
           <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Want to win?</p>
