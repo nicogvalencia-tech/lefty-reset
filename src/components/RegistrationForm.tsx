@@ -106,7 +106,7 @@ export default function RegistrationForm() {
               type="text"
               name="firstName"
               required
-              placeholder="Nico"
+              placeholder="Alex"
               className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors"
             />
           </div>
@@ -116,7 +116,7 @@ export default function RegistrationForm() {
               type="text"
               name="lastName"
               required
-              placeholder="Valencia"
+              placeholder="Johnson"
               className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors"
             />
           </div>
@@ -142,7 +142,7 @@ export default function RegistrationForm() {
             <input
               type="text"
               name="instagramHandle"
-              placeholder="@nicothelefty"
+              placeholder="@yourhandle"
               className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors"
             />
           </div>
@@ -151,7 +151,7 @@ export default function RegistrationForm() {
             <input
               type="text"
               name="tiktokHandle"
-              placeholder="@nicothelefty"
+              placeholder="@yourhandle"
               className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors"
             />
           </div>
@@ -171,7 +171,7 @@ export default function RegistrationForm() {
           <input
             type="text"
             name="location"
-            placeholder="Miami, FL"
+            placeholder="Austin, TX"
             className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors"
           />
         </div>
