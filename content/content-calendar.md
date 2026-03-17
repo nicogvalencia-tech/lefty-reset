@@ -37,7 +37,7 @@ Not live yet — use this week to finalize community setup.
 ### Instagram
 1. **"Registration is open" post** — Link in bio. "The Lefty Reset is officially open. Join free. Win $1,000. 60 days. nicothelefty.com/register"
 2. **How It Works carousel** — 7 slides walking through the challenge step by step.
-3. **Free vs. Premium breakdown post** — "You can join free. Or upgrade for $49 and give yourself every advantage."
+3. **Free vs. Premium breakdown post** — "You can join free. Or upgrade for $99 and give yourself every advantage."
 4. **Countdown Story series** — Daily stories counting down to Day 1.
 
 ### TikTok

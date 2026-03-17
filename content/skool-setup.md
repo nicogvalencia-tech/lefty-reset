@@ -20,7 +20,7 @@
 | Feed moderation | Admin approves first post from new members |
 | Default feed sort | Latest |
 | Community visibility | Public (discoverable) |
-| Premium gating | Classroom content locked to paid ($49) members only |
+| Premium gating | Classroom content locked to paid ($99) members only |
 
 ---
 
@@ -120,7 +120,7 @@ Pin this in the community so members know how to participate on social.
 
 ---
 
-## PREMIUM TIER STRUCTURE ($49 one-time)
+## PREMIUM TIER STRUCTURE ($99 one-time)
 
 Premium members get everything in the free tier PLUS access to the full Classroom.
 
