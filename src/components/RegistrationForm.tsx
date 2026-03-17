@@ -34,16 +34,17 @@ export default function RegistrationForm() {
 
         {/* Step 1 — Join Skool */}
         <div className="bg-[#0EB1D2] rounded-3xl p-10 max-w-lg mx-auto text-left mb-6">
-          <p className="text-white/70 text-xs font-black uppercase tracking-[0.3em] mb-3">Step 1 — Join the Community</p>
-          <h3 className="text-white text-2xl font-black mb-3">Register on Skool</h3>
+          <p className="text-white font-black text-2xl uppercase tracking-wide mb-1">Step 1 — Do This Now</p>
+          <p className="text-white/70 text-sm font-black uppercase tracking-[0.2em] mb-5">Join the Community</p>
+          <h3 className="text-white text-4xl font-black mb-4">Register on Skool</h3>
           <p className="text-white/80 leading-relaxed mb-6">
-            Head over to the Lefty Reset community on Skool to complete your registration. This is where everything happens — check-ins, leaderboard, live sessions, and more.
+            Your next step is to join the Lefty Reset community on Skool. This is where everything happens — check-ins, leaderboard, live sessions, and more. Don&apos;t skip this.
           </p>
           <a
             href="https://www.skool.com/theleftyreset/about"
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30"
+            className="block text-center bg-[#2B4141] hover:bg-[#2B4141]/80 text-white font-black px-8 py-5 rounded-full uppercase tracking-wide transition-colors shadow-lg shadow-black/30 text-lg"
           >
             Join the Community on Skool →
           </a>
@@ -51,10 +52,11 @@ export default function RegistrationForm() {
 
         {/* Step 2 — Upgrade to Premium */}
         <div className="bg-[#2B4141] rounded-3xl p-10 max-w-lg mx-auto text-left">
-          <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Step 2 — Want Full Prize Eligibility?</p>
-          <h3 className="text-white text-2xl font-black mb-3">Upgrade to Premium — $99</h3>
+          <p className="text-[#34E4EA] font-black text-2xl uppercase tracking-wide mb-1">Step 2 — Want to Win Big?</p>
+          <p className="text-[#34E4EA]/60 text-sm font-black uppercase tracking-[0.2em] mb-5">After Joining Skool</p>
+          <h3 className="text-white text-4xl font-black mb-4">Upgrade to Premium — $99</h3>
           <p className="text-white/70 leading-relaxed mb-6">
-            Once you&apos;ve registered on Skool, you can upgrade to Premium for full prize eligibility and exclusive access. Here&apos;s everything that&apos;s included:
+            Once you&apos;ve registered on Skool, upgrade to Premium for full prize eligibility and exclusive access. Here&apos;s everything that&apos;s included:
           </p>
           <ul className="flex flex-col gap-3 mb-8">
             {[
