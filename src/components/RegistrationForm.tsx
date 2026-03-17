@@ -5,7 +5,6 @@ import { useState } from "react";
 export default function RegistrationForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [goal, setGoal] = useState("");
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -176,32 +175,46 @@ export default function RegistrationForm() {
           />
         </div>
 
-        {/* Primary Goal (optional) */}
+        {/* Primary Fitness Goals — Multi-select */}
         <div className="flex flex-col gap-2">
-          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">Primary Fitness Goal <span className="text-[#2B4141]/40 normal-case font-normal">(optional)</span></label>
-          <select
-            name="primaryGoal"
-            value={goal}
-            onChange={(e) => setGoal(e.target.value)}
-            className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors bg-white"
-          >
-            <option value="">Select a goal...</option>
-            <option value="Lose weight">Lose weight</option>
-            <option value="Build muscle">Build muscle</option>
-            <option value="Improve fitness">Improve overall fitness</option>
-            <option value="Play better pickleball">Play better pickleball</option>
-            <option value="Build healthy habits">Build healthy habits</option>
-            <option value="Other">Other</option>
-          </select>
-          {goal === "Other" && (
-            <input
-              type="text"
-              name="primaryGoalCustom"
-              placeholder="Tell us your goal..."
-              className="border-2 border-[#0EB1D2] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#34E4EA] transition-colors mt-2"
-              autoFocus
-            />
-          )}
+          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">Primary Fitness Goals <span className="text-[#2B4141]/40 normal-case font-normal">(optional — select all that apply)</span></label>
+          <div className="grid grid-cols-2 gap-2">
+            {[
+              "Lose weight",
+              "Build muscle",
+              "Improve overall fitness",
+              "Play better pickleball",
+              "Build healthy habits",
+              "Improve mobility & flexibility",
+              "Increase energy & stamina",
+              "Reduce stress",
+              "Sleep better",
+              "Eat healthier",
+              "Stay accountable",
+              "Win a prize",
+            ].map((option) => (
+              <label key={option} className="flex items-center gap-2 bg-white border-2 border-[#C8C2AE] rounded-xl px-4 py-3 cursor-pointer hover:border-[#0EB1D2] transition-colors">
+                <input
+                  type="checkbox"
+                  name="fitnessGoals"
+                  value={option}
+                  className="w-4 h-4 accent-[#0EB1D2] shrink-0"
+                />
+                <span className="text-sm text-[#2B4141]">{option}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+
+        {/* Challenge Goal — Free form */}
+        <div className="flex flex-col gap-2">
+          <label className="text-sm font-black text-[#2B4141] uppercase tracking-wide">What would you like to achieve in this challenge? <span className="text-[#2B4141]/40 normal-case font-normal">(optional)</span></label>
+          <textarea
+            name="challengeGoal"
+            rows={3}
+            placeholder="Share your personal goal, motivation, or what success looks like for you after 60 days..."
+            className="border-2 border-[#C8C2AE] rounded-xl px-4 py-3 text-[#2B4141] focus:outline-none focus:border-[#0EB1D2] transition-colors resize-none"
+          />
         </div>
 
         {/* Consent */}
