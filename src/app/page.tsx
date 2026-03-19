@@ -231,32 +231,32 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-[#0EB1D2] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
-                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 1 — Objective</p>
+                <p className="text-[#2B4141] text-xs font-black uppercase tracking-[0.4em] mb-5 opacity-70">Track 1 — Objective</p>
                 <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Greatest % Body Weight Lost</h3>
-                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
+                <p className="text-[#2B4141] leading-relaxed mb-8">
                   The participant who loses the highest percentage of their starting body weight by Day 60 wins. Calculated by formula, verified by weekly check-ins.
                 </p>
-                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
+                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-black/15 rounded-xl px-5 py-4 leading-relaxed">
                   We use percentage — not total pounds — so everyone competes on a level playing field regardless of starting size.
                 </p>
               </div>
-              <div className="bg-[#8AB9B5] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
-                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 2 — Community Voted</p>
-                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Community Transformation Award</h3>
-                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
+              <div className="bg-[#5a9e99] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
+                <p className="text-white text-xs font-black uppercase tracking-[0.4em] mb-5 opacity-80">Track 2 — Community Voted</p>
+                <h3 className="text-3xl font-black text-white leading-tight mb-5">Community Transformation Award</h3>
+                <p className="text-white/90 leading-relaxed mb-8">
                   Community-voted. At the end of the challenge, finalists share their stories and the community votes for the most inspiring journey.
                 </p>
-                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
+                <p className="mt-auto text-white text-sm font-semibold bg-black/20 rounded-xl px-5 py-4 leading-relaxed">
                   You don&apos;t have to lose the most weight to win this one. You just have to show up.
                 </p>
               </div>
-              <div className="bg-[#C8C2AE] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
-                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 3 — Every Week</p>
-                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Weekly Check-In Prizes</h3>
-                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
+              <div className="bg-[#a09070] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
+                <p className="text-white text-xs font-black uppercase tracking-[0.4em] mb-5 opacity-80">Track 3 — Every Week</p>
+                <h3 className="text-3xl font-black text-white leading-tight mb-5">Weekly Check-In Prizes</h3>
+                <p className="text-white/90 leading-relaxed mb-8">
                   Every week, members who submit their check-in are automatically entered into that week&apos;s giveaway. Prizes announced weekly on Skool and social.
                 </p>
-                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
+                <p className="mt-auto text-white text-sm font-semibold bg-black/20 rounded-xl px-5 py-4 leading-relaxed">
                   The more weeks you check in, the more chances you have to win. Consistency pays off.
                 </p>
               </div>
