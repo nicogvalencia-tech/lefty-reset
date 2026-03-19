@@ -231,12 +231,12 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-[#0EB1D2] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
-                <p className="text-[#2B4141] text-xs font-black uppercase tracking-[0.4em] mb-5 opacity-70">Track 1 — Objective</p>
-                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Greatest % Body Weight Lost</h3>
-                <p className="text-[#2B4141] leading-relaxed mb-8">
+                <p className="text-white text-xs font-black uppercase tracking-[0.4em] mb-5 opacity-80">Track 1 — Objective</p>
+                <h3 className="text-3xl font-black text-white leading-tight mb-5">Greatest % Body Weight Lost</h3>
+                <p className="text-white/90 leading-relaxed mb-8">
                   The participant who loses the highest percentage of their starting body weight by Day 60 wins. Calculated by formula, verified by weekly check-ins.
                 </p>
-                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-black/15 rounded-xl px-5 py-4 leading-relaxed">
+                <p className="mt-auto text-white text-sm font-semibold bg-black/20 rounded-xl px-5 py-4 leading-relaxed">
                   We use percentage — not total pounds — so everyone competes on a level playing field regardless of starting size.
                 </p>
               </div>
