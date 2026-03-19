@@ -58,17 +58,19 @@ export default function RegistrationForm() {
 
         {/* Step 2 — Upgrade to Premium */}
         <div className="bg-[#2B4141] rounded-3xl p-10 max-w-lg mx-auto text-left">
-          <p className="text-[#34E4EA] font-black text-2xl uppercase tracking-wide mb-1">Step 2 — Want to Win Big?</p>
+          <p className="text-[#34E4EA] font-black text-2xl uppercase tracking-wide mb-1">Step 2 — Go All In</p>
           <p className="text-[#34E4EA]/60 text-sm font-black uppercase tracking-[0.2em] mb-5">After Joining Skool</p>
-          <h3 className="text-white text-4xl font-black mb-4">Upgrade to Premium — $99</h3>
+          <h3 className="text-white text-4xl font-black mb-1">Upgrade to Premium</h3>
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-white/40 text-xl font-black line-through">$99</span>
+            <span className="text-[#34E4EA] text-2xl font-black">$49</span>
+            <span className="text-[#34E4EA]/60 text-xs font-black uppercase tracking-wide">Limited launch pricing</span>
+          </div>
           <p className="text-white/70 leading-relaxed mb-6">
-            Once you&apos;ve registered on Skool, upgrade to Premium for full prize eligibility and exclusive access. Here&apos;s everything that&apos;s included:
+            Once you&apos;ve registered on Skool, upgrade to Premium for exclusive coaching access. Here&apos;s what&apos;s included:
           </p>
           <ul className="flex flex-col gap-3 mb-8">
             {[
-              "Grand Prize eligibility — $1,000 cash (greatest % body weight lost)",
-              "Fan Vote eligibility — 4-month 1-on-1 coaching from That Pickleball Trainer ($2,400 value)",
-              "Weekly giveaway entries for every active check-in",
               "Live Zoom sessions with Nico and expert guests",
               "Private Premium members channel",
               "Direct Q&A access with Nico",
@@ -79,7 +81,7 @@ export default function RegistrationForm() {
               </li>
             ))}
           </ul>
-          <p className="text-white/40 text-xs mb-6">You must register on Skool first before upgrading to Premium.</p>
+          <p className="text-white/40 text-xs mb-6">All prize eligibility is included with your free registration. You must register on Skool first before upgrading to Premium.</p>
           <a
             href="https://www.skool.com/theleftyreset/plans"
             target="_blank"
@@ -248,7 +250,7 @@ export default function RegistrationForm() {
         </button>
 
         <p className="text-center text-xs text-[#2B4141]/40">
-          No credit card required. You can upgrade to Premium ($99 one-time) after registering.
+          No credit card required. You can upgrade to Premium ($49, originally $99) after registering.
         </p>
       </form>
     </div>

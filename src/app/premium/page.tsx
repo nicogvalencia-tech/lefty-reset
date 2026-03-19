@@ -3,16 +3,16 @@ import Footer from "@/components/Footer";
 
 const benefits = [
   {
-    q: "What prizes am I eligible for as a Premium member?",
-    a: "Premium members are eligible for all prizes — the $1,000 Grand Prize (greatest % body weight lost), the Fan Vote winner package (4-month 1-on-1 coaching from That Pickleball Trainer, valued at $2,400), and weekly giveaways for every active check-in throughout the challenge.",
+    q: "What prizes am I eligible for?",
+    a: "All members — free and Premium — are eligible for every prize: the $1,000 Grand Prize (greatest % body weight lost), the Fan Vote winner package (4-month 1-on-1 coaching from That Pickleball Trainer, valued at $2,400), and weekly giveaways for every active check-in throughout the challenge.",
   },
   {
     q: "What are the weekly giveaways?",
-    a: "Every week of the challenge, Premium members who submit their weekly check-in are automatically entered into that week's giveaway. The more weeks you check in, the more chances you have to win. Prizes are announced weekly on Skool and social.",
+    a: "Every week of the challenge, any member who submits their weekly check-in is automatically entered into that week's giveaway. The more weeks you check in, the more chances you have to win. Prizes are announced weekly on Skool and social.",
   },
   {
     q: "What is the Fan Vote?",
-    a: "At the end of the 60-day challenge, Premium member transformation stories are shared with the community (no sensitive data — just your story and photos if you choose to share). The community votes for the most inspiring transformation. The winner receives a 4-month 1-on-1 coaching package from That Pickleball Trainer, valued at $2,400.",
+    a: "At the end of the 60-day challenge, finalist transformation stories are shared with the community (no sensitive data — just your story and photos if you choose to share). The community votes for the most inspiring transformation. The winner receives a 4-month 1-on-1 coaching package from That Pickleball Trainer, valued at $2,400. All members are eligible.",
   },
   {
     q: "What live sessions are included?",
@@ -50,13 +50,18 @@ export default function PremiumPage() {
           <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-3">Premium Membership</p>
           <h1 className="text-5xl font-black text-[#2B4141] mb-6">Everything You Get with Premium</h1>
           <p className="text-[#2B4141]/60 text-lg leading-relaxed max-w-xl mx-auto">
-            Full prize eligibility, live sessions, private access, and weekly giveaways. Here's exactly what's included.
+            Live sessions, private coaching access, and weekly giveaways. Here&apos;s exactly what&apos;s included.
           </p>
+          <div className="flex items-center justify-center gap-3 mt-6 mb-2">
+            <span className="text-2xl font-black text-[#2B4141] line-through opacity-40">$99</span>
+            <span className="text-3xl font-black text-[#0EB1D2]">$49</span>
+            <span className="bg-[#34E4EA]/20 text-[#0EB1D2] text-xs font-black uppercase tracking-wide px-3 py-1 rounded-full">Limited launch pricing</span>
+          </div>
           <a
             href="/register?plan=premium"
-            className="inline-block mt-8 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
+            className="inline-block mt-4 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
           >
-            Upgrade to Premium — $99 →
+            Upgrade to Premium — $49 →
           </a>
         </div>
 
@@ -88,7 +93,7 @@ export default function PremiumPage() {
             href="/register?plan=premium"
             className="inline-block bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-10 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
           >
-            Upgrade to Premium — $99 →
+            Upgrade to Premium — $49 →
           </a>
         </div>
 

@@ -36,9 +36,9 @@ const steps = [
 ];
 
 const prizes = [
-  { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost (All Members)", highlight: true },
-  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value) — Premium Members", highlight: false },
-  { place: "Weekly Giveaways", prize: "Prizes every week for Premium members who check in", highlight: false },
+  { place: "Grand Prize", prize: "$1,000 Cash — Greatest % Body Weight Lost", highlight: true },
+  { place: "Fan Vote Winner", prize: "4-Month 1-on-1 Coaching Package from That Pickleball Trainer ($2,400 value)", highlight: false },
+  { place: "Weekly Giveaways", prize: "Prizes every week for members who complete their check-in", highlight: false },
 ];
 
 const freeFeatures = [
@@ -46,7 +46,7 @@ const freeFeatures = [
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
   "Workout plans & nutrition guides",
-  "Grand Prize eligibility",
+  "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
 ];
 
 const premiumFeatures = [
@@ -63,7 +63,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full challenge, workout plans, nutrition guides, and Grand Prize eligibility are free. Upgrade to Premium ($99) for Fan Vote eligibility, weekly giveaways, live Zoom sessions, and direct Q&A with Nico.",
+    a: "Yes. The full challenge, workout plans, nutrition guides, and all prize eligibility are completely free — no credit card required. Upgrade to Premium ($49, originally $99) for live Zoom sessions, a private members channel, and direct Q&A with Nico.",
   },
   {
     q: "Who can join?",
@@ -78,8 +78,8 @@ const faqs = [
     a: "Never. The leaderboard only displays your name or social handle. Your weight data is private and used only for prize tracking with your consent.",
   },
   {
-    q: "What's the $99 Premium upgrade?",
-    a: "The $99 Premium upgrade unlocks Fan Vote eligibility, weekly giveaways, live Zoom sessions, a private members channel, and direct Q&A access with Nico on Skool.",
+    q: "What does the Premium upgrade include?",
+    a: "The $49 Premium upgrade (originally $99) unlocks weekly live Zoom sessions with Nico and expert guests, a private members channel, and direct Q&A access with Nico on Skool. All prize eligibility is already included with the free tier.",
   },
   {
     q: "What if I miss a weekly check-in?",
@@ -145,7 +145,7 @@ export default function Home() {
                 href="#premium"
                 className="border-2 border-white/30 text-white hover:border-white/70 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
-                Upgrade to Premium — $99
+                <span className="line-through opacity-50 mr-1">$99</span>Upgrade to Premium — $49
               </a>
             </div>
           </div>
@@ -291,7 +291,7 @@ export default function Home() {
               <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Choose Your Experience</p>
               <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">Free vs. Premium</h2>
               <p className="text-[#2B4141]/50 mt-5 text-lg max-w-xl mx-auto leading-relaxed">
-                The free tier gets you fully in the challenge. The $99 upgrade gives you the tools to actually win it.
+                The free tier gets you fully in the challenge — including all prize eligibility. The $49 upgrade gives you the tools to stay connected and accountable.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
@@ -320,10 +320,11 @@ export default function Home() {
               <div className="bg-[#2B4141] rounded-2xl p-10">
                 <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Premium</p>
                 <div className="flex items-end gap-2 mb-1">
-                  <p className="text-5xl font-black text-white">$99</p>
-                  <p className="text-white/40 mb-2">Premium</p>
+                  <p className="text-5xl font-black text-white">$49</p>
+                  <p className="text-white/40 mb-2 line-through">$99</p>
                 </div>
-                <div className="mb-10" />
+                <p className="text-[#34E4EA]/70 text-xs font-semibold mb-4">Limited launch pricing</p>
+                <div className="mb-6" />
                 <ul className="flex flex-col gap-4 mb-10">
                   {premiumFeatures.map((f) => (
                     <li key={f} className="flex items-center gap-3 text-white/70">
@@ -338,7 +339,7 @@ export default function Home() {
                   href="/register?plan=premium"
                   className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 >
-                  Upgrade to Premium — $99
+                  Upgrade to Premium — $49
                 </a>
               </div>
             </div>
@@ -432,10 +433,10 @@ export default function Home() {
                 href="/register?plan=premium"
                 className="border-2 border-white/20 text-white hover:border-white/50 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300"
               >
-                Upgrade to Premium — $99
+                <span className="line-through opacity-50 mr-1">$99</span>Upgrade to Premium — $49
               </a>
             </div>
-            <p className="text-white/30 text-sm mt-10">No credit card required to join free. Premium is $99.</p>
+            <p className="text-white/30 text-sm mt-10">No credit card required to join free. Premium is $49 (originally $99).</p>
           </div>
         </section>
 
