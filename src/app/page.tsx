@@ -30,8 +30,8 @@ const steps = [
   },
   {
     number: "06",
-    title: "Community Votes",
-    body: "Finalist transformation stories are shared (no sensitive data). The community votes for their favorite.",
+    title: "Winners Crowned",
+    body: "The greatest % body weight lost wins the Grand Prize. The community votes for the most inspiring transformation. Weekly check-in prizes are awarded throughout.",
   },
 ];
 
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "How are winners determined?",
-    a: "Track 1 (Greatest % Body Weight Lost) is calculated by formula from your submitted weekly check-ins. Track 2 (Community Transformation Award) is voted on by the community at the end.",
+    a: "There are three ways to win. Track 1 (Greatest % Body Weight Lost) is calculated by formula from your weekly check-ins. Track 2 (Community Transformation Award) is voted on by the community at the end of the challenge. Track 3 (Weekly Prizes) — every member who submits a check-in each week is automatically entered into that week's giveaway.",
   },
   {
     q: "Do I have to share my actual weight publicly?",
@@ -222,14 +222,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* TWO WAYS TO WIN */}
+        {/* THREE WAYS TO WIN */}
         <section className="bg-[#2B4141] py-24 px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-20">
               <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.4em] mb-6">Competition</p>
-              <h2 className="text-5xl sm:text-6xl font-black text-white">Two Ways to Win</h2>
+              <h2 className="text-5xl sm:text-6xl font-black text-white">Three Ways to Win</h2>
             </div>
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-[#0EB1D2] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
                 <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 1 — Objective</p>
                 <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Greatest % Body Weight Lost</h3>
@@ -248,6 +248,16 @@ export default function Home() {
                 </p>
                 <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
                   You don&apos;t have to lose the most weight to win this one. You just have to show up.
+                </p>
+              </div>
+              <div className="bg-[#C8C2AE] rounded-2xl p-10 flex flex-col hover:scale-[1.01] transition-transform duration-300">
+                <p className="text-[#2B4141]/60 text-xs font-black uppercase tracking-[0.4em] mb-5">Track 3 — Every Week</p>
+                <h3 className="text-3xl font-black text-[#2B4141] leading-tight mb-5">Weekly Check-In Prizes</h3>
+                <p className="text-[#2B4141]/80 leading-relaxed mb-8">
+                  Every week, members who submit their check-in are automatically entered into that week&apos;s giveaway. Prizes announced weekly on Skool and social.
+                </p>
+                <p className="mt-auto text-[#2B4141] text-sm font-semibold bg-white/30 rounded-xl px-5 py-4 leading-relaxed">
+                  The more weeks you check in, the more chances you have to win. Consistency pays off.
                 </p>
               </div>
             </div>
