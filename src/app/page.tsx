@@ -41,21 +41,13 @@ const prizes = [
   { place: "Weekly Giveaways", prize: "Prizes every week for members who complete their check-in", highlight: false },
 ];
 
-const freeFeatures = [
+const allFeatures = [
   "Full 60-day challenge access",
   "Weekly check-in tracking",
   "Community feed & #LeftyReset",
   "Workout plans & nutrition guides",
   "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
-];
-
-const premiumFeatures = [
-  "Full 60-day challenge access",
-  "Weekly check-in tracking",
-  "Community feed & #LeftyReset",
-  "Workout plans & nutrition guides",
-  "Full prize eligibility — Grand Prize, Fan Vote & weekly giveaways",
-  "Private premium members channel",
+  "Private members channel on Skool",
   "Direct Q&A access with Nico",
   "Live Zoom sessions with Nico and expert guests",
 ];
@@ -63,7 +55,7 @@ const premiumFeatures = [
 const faqs = [
   {
     q: "Is this really free?",
-    a: "Yes. The full challenge, workout plans, nutrition guides, and all prize eligibility are completely free — no credit card required. Upgrade to Premium ($49, originally $99) for live Zoom sessions, a private members channel, and direct Q&A with Nico.",
+    a: "Yes — 100% free. The full challenge, workout plans, nutrition guides, live Zoom sessions, community access, and all prize eligibility are included at no cost. No credit card required, ever.",
   },
   {
     q: "Who can join?",
@@ -76,10 +68,6 @@ const faqs = [
   {
     q: "Do I have to share my actual weight publicly?",
     a: "Never. The leaderboard only displays your name or social handle. Your weight data is private and used only for prize tracking with your consent.",
-  },
-  {
-    q: "What does the Premium upgrade include?",
-    a: "The $49 Premium upgrade (originally $99) unlocks weekly live Zoom sessions with Nico and expert guests, a private members channel, and direct Q&A access with Nico on Skool. All prize eligibility is already included with the free tier.",
   },
   {
     q: "What if I miss a weekly check-in?",
@@ -136,16 +124,16 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/register?plan=free"
+                href="/register"
                 className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
               </a>
               <a
-                href="#premium"
+                href="#how-it-works"
                 className="border-2 border-white/30 text-white hover:border-white/70 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
-                <span className="line-through opacity-50 mr-1">$99</span>Upgrade to Premium — $49
+                How It Works
               </a>
             </div>
           </div>
@@ -213,7 +201,7 @@ export default function Home() {
                 <p className="text-white/50">Prizes awarded. Legends made. Your transformation celebrated.</p>
               </div>
               <a
-                href="/register?plan=free"
+                href="/register"
                 className="shrink-0 bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
               >
                 Join Free →
@@ -294,64 +282,35 @@ export default function Home() {
           </div>
         </section>
 
-        {/* FREE VS PREMIUM */}
-        <section className="bg-[#f7f7f5] py-24 px-6" id="premium">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-20">
-              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Choose Your Experience</p>
-              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">Free vs. Premium</h2>
+        {/* WHAT'S INCLUDED */}
+        <section className="bg-[#f7f7f5] py-24 px-6" id="included">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <p className="text-[#0EB1D2] text-xs font-black uppercase tracking-[0.4em] mb-6">Everything Included</p>
+              <h2 className="text-5xl sm:text-6xl font-black text-[#2B4141]">Free for Everyone</h2>
               <p className="text-[#2B4141]/50 mt-5 text-lg max-w-xl mx-auto leading-relaxed">
-                The free tier gets you fully in the challenge — including all prize eligibility. The $49 upgrade gives you the tools to stay connected and accountable.
+                No tiers. No upgrades. No credit card. Every participant gets the full experience.
               </p>
             </div>
-            <div className="grid sm:grid-cols-2 gap-6">
-              {/* Free */}
-              <div className="bg-white border border-[#e8e5e0] rounded-2xl p-10">
-                <p className="text-[#2B4141]/40 text-xs font-black uppercase tracking-[0.3em] mb-3">Free</p>
-                <p className="text-5xl font-black text-[#2B4141] mb-10">$0</p>
-                <ul className="flex flex-col gap-4 mb-10">
-                  {freeFeatures.map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-[#2B4141]/70">
-                      <span className="w-5 h-5 rounded-full bg-[#0EB1D2]/15 flex items-center justify-center shrink-0">
-                        <span className="text-[#0EB1D2] text-xs font-black">✓</span>
-                      </span>
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href="/register?plan=free"
-                  className="block text-center border-2 border-[#2B4141] text-[#2B4141] hover:bg-[#2B4141] hover:text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300"
-                >
-                  Join Free
-                </a>
-              </div>
-              {/* Premium */}
-              <div className="bg-[#2B4141] rounded-2xl p-10">
-                <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">Premium</p>
-                <div className="flex items-end gap-2 mb-1">
-                  <p className="text-5xl font-black text-white">$49</p>
-                  <p className="text-white/40 mb-2 line-through">$99</p>
-                </div>
-                <p className="text-[#34E4EA]/70 text-xs font-semibold mb-4">Limited launch pricing</p>
-                <div className="mb-6" />
-                <ul className="flex flex-col gap-4 mb-10">
-                  {premiumFeatures.map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-white/70">
-                      <span className="w-5 h-5 rounded-full bg-[#34E4EA]/20 flex items-center justify-center shrink-0">
-                        <span className="text-[#34E4EA] text-xs font-black">✓</span>
-                      </span>
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href="/register?plan=premium"
-                  className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
-                >
-                  Upgrade to Premium — $49
-                </a>
-              </div>
+            <div className="bg-[#2B4141] rounded-2xl p-10 mb-8">
+              <p className="text-[#34E4EA] text-xs font-black uppercase tracking-[0.3em] mb-3">All Members</p>
+              <p className="text-5xl font-black text-white mb-10">$0</p>
+              <ul className="flex flex-col gap-4 mb-10">
+                {allFeatures.map((f) => (
+                  <li key={f} className="flex items-center gap-3 text-white/80">
+                    <span className="w-5 h-5 rounded-full bg-[#34E4EA]/20 flex items-center justify-center shrink-0">
+                      <span className="text-[#34E4EA] text-xs font-black">✓</span>
+                    </span>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href="/register"
+                className="block text-center bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black px-8 py-4 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.02]"
+              >
+                Join Free →
+              </a>
             </div>
           </div>
         </section>
@@ -432,21 +391,13 @@ export default function Home() {
             <p className="text-white/50 text-xl leading-relaxed mb-14 max-w-xl mx-auto">
               Join pickleball players and fitness enthusiasts ready to make the next 60 days count. It&apos;s free. The community is waiting.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/register?plan=free"
-                className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
-              >
-                Join Free →
-              </a>
-              <a
-                href="/register?plan=premium"
-                className="border-2 border-white/20 text-white hover:border-white/50 font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300"
-              >
-                <span className="line-through opacity-50 mr-1">$99</span>Upgrade to Premium — $49
-              </a>
-            </div>
-            <p className="text-white/30 text-sm mt-10">No credit card required to join free. Premium is $49 (originally $99).</p>
+            <a
+              href="/register"
+              className="bg-[#0EB1D2] hover:bg-[#34E4EA] text-white font-black text-lg px-12 py-5 rounded-full uppercase tracking-wide transition-all duration-300 hover:scale-[1.03]"
+            >
+              Join Free →
+            </a>
+            <p className="text-white/30 text-sm mt-10">No credit card required. Everything is free.</p>
           </div>
         </section>
 
