@@ -10,7 +10,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-3">
             <span className="text-white/60 text-lg font-semibold uppercase tracking-widest">Powered by</span>
-            <a href="https://sqairz.com/pages/pickleball" target="_blank" rel="noopener noreferrer">
+            <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/images/sqairz_logo_mark_white.png"
                 alt="Sqairz"
