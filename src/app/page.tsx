@@ -182,7 +182,7 @@ export default function Home() {
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://11six24.com/nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
-                <img src="/images/11SIX24-LOGO.png" alt="11six24" className="h-14 w-auto object-contain" />
+                <img src="/images/11SIX24logofinal.svg" alt="11six24" className="h-14 w-auto object-contain" />
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://forwrd.co/discount/nicothelefty?ref=nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
