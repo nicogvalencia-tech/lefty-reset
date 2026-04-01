@@ -114,7 +114,7 @@ export default function Home() {
               />
             </div>
             <div className="flex items-center justify-center gap-4 mb-8">
-              <span className="text-white/60 text-xl font-semibold uppercase tracking-[0.3em]">Powered by Sqairz</span>
+              <span className="text-white/60 text-xl font-semibold uppercase tracking-[0.3em]">Powered by</span>
               <Image
                 src="/images/sqairz_logo_mark_white.png"
                 alt="Sqairz"
