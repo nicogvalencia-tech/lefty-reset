@@ -171,6 +171,27 @@ export default function Home() {
           ))}
         </section>
 
+        {/* PARTNERS */}
+        <section className="bg-[#2B4141] py-12 px-6">
+          <div className="max-w-5xl mx-auto">
+            <p className="text-white/40 text-xs font-black uppercase tracking-[0.4em] text-center mb-10">Challenge Partners</p>
+            <div className="flex flex-wrap items-center justify-center gap-10">
+              <a href="https://www.enhancepickleball.com/NICOTHELEFTY" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+                <Image src="/images/Enhance-Banger.png" alt="Enhance Pickleball" width={140} height={60} className="object-contain h-14 w-auto" />
+              </a>
+              <a href="https://11six24.com/nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+                <Image src="/images/11six24_logo_new1.webp" alt="11six24" width={140} height={60} className="object-contain h-14 w-auto" />
+              </a>
+              <a href="https://forwrd.co/discount/nicothelefty?ref=nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+                <Image src="/images/forwrd_logos_Orange_PNG.webp" alt="Forwrd" width={140} height={60} className="object-contain h-14 w-auto" />
+              </a>
+              <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+                <Image src="/images/sqairz_logo_mark_white.png" alt="Sqairz" width={60} height={60} className="object-contain h-14 w-auto" />
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* WHAT IS THIS */}
         <section className="bg-white py-24 px-6">
           <div className="max-w-3xl mx-auto text-center">
