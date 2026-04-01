@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center gap-4 mb-8">
               <span className="text-white/60 text-xl font-semibold uppercase tracking-[0.3em]">Powered by</span>
-              <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer">
+              <a href="https://sqairz.com/discount/nicothelefty" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/images/sqairz_logo_mark_white.png"
                   alt="Sqairz"
@@ -189,7 +189,7 @@ export default function Home() {
                 <img src="/images/forwrd_logos_Orange_PNG.webp" alt="Forwrd" className="h-[73px] w-auto object-contain" />
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+              <a href="https://sqairz.com/discount/nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
                 <img src="/images/sqairz_logo_mark_white.png" alt="Sqairz" className="h-[25px] w-auto object-contain" />
               </a>
             </div>

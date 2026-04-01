@@ -12,7 +12,7 @@ export default function Nav() {
           </a>
           <div className="hidden sm:flex items-center gap-2 border-l border-white/20 pl-3">
             <span className="text-white/60 text-sm font-semibold uppercase tracking-widest">Powered by</span>
-            <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer">
+            <a href="https://sqairz.com/discount/nicothelefty" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/images/sqairz_logo_mark_white.png"
                 alt="Sqairz"
