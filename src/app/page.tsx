@@ -114,15 +114,14 @@ export default function Home() {
               />
             </div>
             <div className="flex items-center justify-center gap-4 mb-8">
-              <span className="text-white/60 text-base font-semibold uppercase tracking-[0.3em]">presented by</span>
+              <span className="text-white/60 text-base font-semibold uppercase tracking-[0.3em]">sponsored by</span>
               <Image
                 src="/images/sqairz_logo_mark_white.png"
                 alt="Sqairz"
-                width={48}
-                height={48}
+                width={144}
+                height={144}
                 className="opacity-90"
               />
-              <span className="text-white text-2xl font-black uppercase tracking-widest">Sqairz</span>
             </div>
             <p className="text-white/70 text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-4">
               A community-driven weight loss and fitness challenge built for pickleball players ready to finally do it.

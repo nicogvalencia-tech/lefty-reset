@@ -11,15 +11,14 @@ export default function Nav() {
             Lefty<span className="text-[#34E4EA]"> Reset</span>
           </a>
           <div className="hidden sm:flex items-center gap-2 border-l border-white/20 pl-3">
-            <span className="text-white/60 text-xs font-semibold uppercase tracking-widest">presented by</span>
+            <span className="text-white/60 text-xs font-semibold uppercase tracking-widest">sponsored by</span>
             <Image
               src="/images/sqairz_logo_mark_white.png"
               alt="Sqairz"
-              width={32}
-              height={32}
+              width={96}
+              height={96}
               className="opacity-90"
             />
-            <span className="text-white text-sm font-black uppercase tracking-widest">Sqairz</span>
           </div>
         </div>
         <div className="flex items-center gap-4">

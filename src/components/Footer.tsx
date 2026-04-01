@@ -9,15 +9,14 @@ export default function Footer() {
             Lefty<span className="text-[#34E4EA]"> Reset</span> — 60-Day Transformation Challenge
           </p>
           <div className="flex items-center gap-3">
-            <span className="text-white/60 text-sm font-semibold uppercase tracking-widest">Title Sponsor</span>
+            <span className="text-white/60 text-sm font-semibold uppercase tracking-widest">sponsored by</span>
             <Image
               src="/images/sqairz_logo_mark_white.png"
               alt="Sqairz"
-              width={36}
-              height={36}
+              width={108}
+              height={108}
               className="opacity-90"
             />
-            <span className="text-white text-lg font-black uppercase tracking-widest">Sqairz</span>
           </div>
         </div>
         <p>© {new Date().getFullYear()} Nico the Lefty. All rights reserved.</p>
