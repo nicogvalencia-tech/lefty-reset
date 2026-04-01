@@ -32,7 +32,7 @@ export default function Footer() {
             Instagram
           </a>
           <a
-            href="https://www.tiktok.com/@nicothelefty"
+            href="https://www.tiktok.com/@nicothelefty_"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"
