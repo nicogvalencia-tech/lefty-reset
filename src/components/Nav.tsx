@@ -12,13 +12,15 @@ export default function Nav() {
           </a>
           <div className="hidden sm:flex items-center gap-2 border-l border-white/20 pl-3">
             <span className="text-white/60 text-sm font-semibold uppercase tracking-widest">Powered by</span>
-            <Image
-              src="/images/sqairz_logo_mark_white.png"
-              alt="Sqairz"
-              width={144}
-              height={144}
-              className="opacity-90"
-            />
+            <a href="https://sqairz.com/pages/pickleball" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/sqairz_logo_mark_white.png"
+                alt="Sqairz"
+                width={144}
+                height={144}
+                className="opacity-90 hover:opacity-100 transition-opacity duration-200"
+              />
+            </a>
           </div>
         </div>
         <div className="flex items-center gap-4">
