@@ -186,7 +186,7 @@ export default function Home() {
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://forwrd.co/discount/nicothelefty?ref=nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
-                <img src="/images/forwrd_logos_Orange_PNG.webp" alt="Forwrd" className="h-14 w-auto object-contain" />
+                <img src="/images/forwrd_logos_Orange_PNG.webp" alt="Forwrd" className="h-[73px] w-auto object-contain" />
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
