@@ -1,12 +1,26 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2B4141]/95 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="/" className="text-white font-black text-lg tracking-wide uppercase hover:opacity-80 transition-opacity duration-200">
-          Lefty<span className="text-[#34E4EA]"> Reset</span>
-        </a>
+        <div className="flex items-center gap-3">
+          <a href="/" className="text-white font-black text-lg tracking-wide uppercase hover:opacity-80 transition-opacity duration-200">
+            Lefty<span className="text-[#34E4EA]"> Reset</span>
+          </a>
+          <div className="hidden sm:flex items-center gap-2 border-l border-white/20 pl-3">
+            <span className="text-white/40 text-[0.6rem] font-semibold uppercase tracking-widest">presented by</span>
+            <Image
+              src="/images/sqairz_logo_mark_white.png"
+              alt="Sqairz"
+              width={22}
+              height={22}
+              className="opacity-80"
+            />
+          </div>
+        </div>
         <div className="flex items-center gap-4">
           <a
             href="/#how-it-works"

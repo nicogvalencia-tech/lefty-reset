@@ -105,13 +105,24 @@ export default function Home() {
                 Nico the Lefty presents
               </p>
             </div>
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/The Lefty Reset Logo Light Final.svg"
                 alt="The Lefty Reset — 60-Day Transformation Challenge"
                 className="w-full max-w-xl"
               />
+            </div>
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <span className="text-white/40 text-xs font-semibold uppercase tracking-[0.3em]">presented by</span>
+              <Image
+                src="/images/sqairz_logo_mark_white.png"
+                alt="Sqairz"
+                width={28}
+                height={28}
+                className="opacity-80"
+              />
+              <span className="text-white/70 text-sm font-black uppercase tracking-widest">Sqairz</span>
             </div>
             <p className="text-white/70 text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-4">
               A community-driven weight loss and fitness challenge built for pickleball players ready to finally do it.
