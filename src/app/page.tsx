@@ -178,7 +178,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center gap-10">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://www.enhancepickleball.com/NICOTHELEFTY" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
-                <img src="/images/Enhance-Banger.png" alt="Enhance Pickleball" className="h-14 w-auto object-contain" />
+                <img src="/images/Enhance Logo.png" alt="Enhance Pickleball" className="h-14 w-auto object-contain" />
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://11six24.com/nicothelefty" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
