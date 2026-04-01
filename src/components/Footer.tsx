@@ -9,12 +9,12 @@ export default function Footer() {
             Lefty<span className="text-[#34E4EA]"> Reset</span> — 60-Day Transformation Challenge
           </p>
           <div className="flex items-center gap-3">
-            <span className="text-white/60 text-sm font-semibold uppercase tracking-widest">sponsored by</span>
+            <span className="text-white/60 text-lg font-semibold uppercase tracking-widest">Powered by Sqairz</span>
             <Image
               src="/images/sqairz_logo_mark_white.png"
               alt="Sqairz"
-              width={108}
-              height={108}
+              width={162}
+              height={162}
               className="opacity-90"
             />
           </div>

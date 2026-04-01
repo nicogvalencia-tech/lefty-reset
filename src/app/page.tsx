@@ -114,12 +114,12 @@ export default function Home() {
               />
             </div>
             <div className="flex items-center justify-center gap-4 mb-8">
-              <span className="text-white/60 text-base font-semibold uppercase tracking-[0.3em]">sponsored by</span>
+              <span className="text-white/60 text-xl font-semibold uppercase tracking-[0.3em]">Powered by Sqairz</span>
               <Image
                 src="/images/sqairz_logo_mark_white.png"
                 alt="Sqairz"
-                width={144}
-                height={144}
+                width={216}
+                height={216}
                 className="opacity-90"
               />
             </div>
