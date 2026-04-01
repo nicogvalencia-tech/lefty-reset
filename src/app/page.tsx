@@ -190,7 +190,7 @@ export default function Home() {
               </a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <a href="https://sqairz.com/collections/all-pickleball-footwear" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
-                <img src="/images/sqairz_logo_mark_white.png" alt="Sqairz" className="h-5 w-auto object-contain" />
+                <img src="/images/sqairz_logo_mark_white.png" alt="Sqairz" className="h-[25px] w-auto object-contain" />
               </a>
             </div>
           </div>
